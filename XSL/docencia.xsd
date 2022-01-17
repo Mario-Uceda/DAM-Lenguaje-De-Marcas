@@ -1,0 +1,28 @@
+<xs:schema>
+
+	<xs:complexType name="infoAcademica">	
+		<xs:sequence>
+			<xs:element name="grupo">
+				<xs:simpleType>
+					<xs:restricion base="xs:string">
+						<xs:enumeration value="1smr"/>
+						<xs:enumeration value="2smr"/>
+						<xs:enumeration value="1dam"/>
+						<xs:enumeration value="2dam"/>
+					</xs:restricion>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="asignatura" type="xs:infoAsignatura"/>
+		</xs:sequence>
+		<xs:anyAttributte/>
+	</xs:complexType>
+		
+	<xs:complexType name="infoAsignatura">
+		<xs:sequence>
+			<xs:element name="nombreAsignatura" type="xs:string"/>
+			<xs:element name="NombreProfesor" type="xs:string"/>
+			<xs:elemeny name="horasSemanales" type="xs:integer"/>
+		</xs:sequence>
+	</xs:complexType>
+	
+</xs:schema>

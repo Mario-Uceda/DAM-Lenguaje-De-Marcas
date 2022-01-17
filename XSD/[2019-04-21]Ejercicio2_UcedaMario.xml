@@ -1,0 +1,16 @@
+<!-- Mario Uceda Yeves
+Módulo: Lenguaje de Marcas // Ciclo: Desarrollo de Aplicaciones Multiplataforma (DAM)
+Fecha entrega: 2019-04-18 // Fecha Oficial de entrega: 2019-04-21 -->
+<?xml version="1.0" encoding="UTF-8"?>
+<aeropuerto>
+  <nombre>Barajas</nombre>
+  <vuelos>
+    <vuelo>
+      <diario/>
+      <origen>Madrid</origen>
+      <destino>Murcia</destino>
+      <hora-salida>02:12:23</hora-salida>
+      <hora-llegada>03:40:41</hora-llegada>
+    </vuelo>
+  </vuelos>
+</aeropuerto>

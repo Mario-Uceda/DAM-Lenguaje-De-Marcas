@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="[2019-03-30]Ejercicio16_UcedaMario.xsl"?>
+<pokedex>
+	<pokemon num="04">
+		<nombre> Charmander</nombre>
+		<tipo> Fuego </tipo>
+		<color> Rojo </color>
+		<categoria> Camaleon </categoria>
+		<habilidad> Mar llamas </habilidad>
+		<grupoHuevo> Dragon/monstruo </grupoHuevo>
+		<ratioCaptura> 5.9 </ratioCaptura> 
+		<altura> 0.6 </altura>
+		<peso> 8.5 </peso>
+	</pokemon>
+	<pokemon num="01">
+		<peso> 6.9 </peso>
+		<altura> 0.7 </altura>
+		<ratioCaptura> 5.9 </ratioCaptura> 
+		<grupoHuevo> Monstruo/Hierba </grupoHuevo>
+		<habilidad> Clorofila </habilidad>
+		<categoria> Semilla </categoria>
+		<nombre> Bulbasaur</nombre>
+		<tipo> Planta </tipo>
+		<color> Verde </color>	
+	</pokemon>
+	<pokemon num="07">
+		<nombre> Squirtle </nombre>
+		<ratioCaptura> 5.9 </ratioCaptura>
+		<peso> 9.0 </peso>
+		<color> Azul </color>
+		<tipo> Agua </tipo>
+		<habilidad> Torrente </habilidad>
+		<categoria> Tortuguita </categoria>
+		<grupoHuevo> Agua 1/monstruo </grupoHuevo>
+		<altura> 0.5 </altura>
+	</pokemon>
+	<pokemon num="10">
+		<altura> 0.3 </altura>
+		<peso> 2.9 </peso>
+		<grupoHuevo> Insecto </grupoHuevo>
+		<ratioCaptura> 33.3 </ratioCaptura> 
+		<habilidad> Polvoescudo </habilidad>
+		<nombre> Caterpie</nombre>
+		<tipo> Insecto </tipo>
+		<color> Verde </color>
+		<categoria> Gusano </categoria>
+	</pokemon>
+</pokedex>

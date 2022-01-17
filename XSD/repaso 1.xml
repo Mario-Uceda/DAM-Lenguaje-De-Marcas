@@ -1,0 +1,53 @@
+<?xml version="1.0"?>
+<xs:schema>
+    <xs:element name="factura">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="dato-emisor">
+                    <xs:complexType type="datospersona"/>
+                </xs:element>
+                <xs:element name="dato-cliente">
+                    <xs:complexType type="datospersona"/>
+                </xs:element>
+                <xs:element name="detalle-factura"/>
+                    <xs:complexType>
+                        <xs:sequence maxOccurs="unbounded">
+                            <xs:element name="línea">
+                                <xs:complexType type="datosfactura"/>
+                                <xs:attribute name="tipo" type="xs:string"/>
+                            </xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+            </xs:sequence>
+        </xs:complexType>
+        <xs:attribute name="numero" type="xs:integer"/>
+        <xs:attribute name="fecha" type="xs:date"/>
+        <xs:attribute name="moneda" type="xs:integer"/>
+    </xs:element>
+    
+    <xs:complexType name="datospersona">
+        <xs:sequence>
+            <xs:element name="nombre" type="xs:string"/>
+            <xs:element name="cif" type="xs:string"/>
+            <xs:element name="telefono" type="xs:integer"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:complexType name="datosfactura">
+        <xs:sequence>
+            <xs:group ref="datosdelafactura"/>
+        </xs:sequence>
+    </xs:complexType>
+    
+    <xs:group name="datosdelafactura">
+        <xs:sequence>
+            <xs:element name="descripción" type="xs:string"/>
+            <xs:element name="cantidad" type="xs:integer"/>
+            <xs:element name="oferta" minOccurs="0">
+                <xs:complexType></xs:complexType>           
+            </xs:element>                
+            <xs:element name="pvp" type="xs:decimal"/>
+        </xs:sequence>
+    </xs:group>
+    
+</xs:schema>

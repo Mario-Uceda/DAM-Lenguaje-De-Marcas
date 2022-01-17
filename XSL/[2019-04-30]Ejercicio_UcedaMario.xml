@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="[2019-03-30]Ejercicio6_UcedaMario.xsl"?>
+<ies>
+	<nombre>IES Villaverde</nombre>
+	<web>https://www.iesvillaverde.es</web>
+	<ciclos>
+		<ciclo>
+			<id>ASIR</id>
+			<nombre>Administración de Sistemas Informáticos en Red</nombre>
+			<grado>Superior</grado>
+			<decretoTítulo>2009</decretoTítulo>
+		</ciclo>
+		<ciclo>
+			<id>DAM</id>
+			<nombre>Desarrollo de Aplicaciones Multiplataforma</nombre>
+			<grado>Superior</grado>
+			<decretoTítulo>2010</decretoTítulo>
+		</ciclo>
+		<ciclo>
+			<id>SMR</id>
+			<nombre>Sistemas Microinformáticos y Redes</nombre>
+			<grado>Medio</grado>
+			<decretoTítulo>2008</decretoTítulo>
+		</ciclo>
+	</ciclos>
+</ies>

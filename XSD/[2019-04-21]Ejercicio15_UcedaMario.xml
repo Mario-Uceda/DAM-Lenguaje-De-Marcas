@@ -1,0 +1,47 @@
+﻿<!-- Mario Uceda Yeves
+Módulo: Lenguaje de Marcas // Ciclo: Desarrollo de Aplicaciones Multiplataforma (DAM)
+Fecha entrega: 2019-04-18 // Fecha Oficial de entrega: 2019-04-21 -->
+<?xml version="1.0" encoding="UTF-8"?>
+<alumnos  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		 xsi:noNamespaceSchemaLocation="personas.xsd">
+	<persona>
+		<datosPersonales fechaNacimiento="2000-05-01">
+			<nombre>Pepe</nombre>
+			<apellido>García</apellido>
+			<dni>25390952X</dni>
+		</datosPersonales>
+		<datosAcademicos>
+			<grupo>1dam</grupo>
+			<asignatura>
+				<nombreAsignatura>lenguaje de marcas</nombreAsignatura>
+				<nombreProfesor>Oscar Abelda</nombreProfesor>
+				<horasSemanales>4</horasSemanales>
+			</asignatura>
+			<asignatura>
+				<nombreAsignatura>Programación</nombreAsignatura>
+				<nombreProfesor>Alvaro Lillo</nombreProfesor>
+				<horasSemanales>8</horasSemanales>
+			</asignatura>
+		</datosAcademicos>
+	</persona>
+  <persona>
+		<datosPersonales fechaNacimiento="1990-08-23">
+			<nombre>Luis</nombre>
+			<apellido>Fernandez</apellido>
+			<dni>25784692N</dni>
+		</datosPersonales>
+		<datosAcademicos>
+			<grupo>1dam</grupo>
+			<asignatura>
+				<nombreAsignatura>lenguaje de marcas</nombreAsignatura>
+				<nombreProfesor>Oscar Abelda</nombreProfesor>
+				<horasSemanales>4</horasSemanales>
+			</asignatura>
+			<asignatura>
+				<nombreAsignatura>Programación</nombreAsignatura>
+				<nombreProfesor>Alvaro Lillo</nombreProfesor>
+				<horasSemanales>8</horasSemanales>
+			</asignatura>
+		</datosAcademicos>
+	</persona>
+</alumnos>

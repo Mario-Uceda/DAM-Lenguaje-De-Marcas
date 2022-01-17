@@ -1,0 +1,38 @@
+﻿<!-- Mario Uceda Yeves
+Módulo: Lenguaje de Marcas // Ciclo: Desarrollo de Aplicaciones Multiplataforma (DAM)
+Fecha entrega: 2019-04-18 // Fecha Oficial de entrega: 2019-04-21 -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<xs:include schemaLocation="docencia.xsd"/>
+  <xs:element name="alumnos">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="persona" type="tipoPersona" maxOccurs="unbounded"/>	
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+	<xs:complexType name="tipoPersona">
+		<xs:sequence>
+			<xs:element name="datosPersonales" type="infoPersonal"/>
+			<xs:element name="datosAcademicos" type="infoAcademica"/>
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="infoPersonal">	
+		<xs:sequence>
+			<xs:element name="nombre" type="xs:string"/>
+			<xs:element name="apellido" type="xs:string"/>
+			<xs:element name="dni">
+				<xs:simpleType>
+					<xs:restriction base="xs:string">
+						<xs:pattern value="[0-9]{8}[A-Z]"/>
+					</xs:restriction>
+				</xs:simpleType>
+			</xs:element>
+			<xs:any minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+    <xs:attribute name="fechaNacimiento" type="xs:date"/>
+		<xs:anyAttribute/>
+	</xs:complexType>
+		
+</xs:schema>

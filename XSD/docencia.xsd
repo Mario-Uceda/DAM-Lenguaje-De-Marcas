@@ -1,0 +1,31 @@
+﻿<!-- Mario Uceda Yeves
+Módulo: Lenguaje de Marcas // Ciclo: Desarrollo de Aplicaciones Multiplataforma (DAM)
+Fecha entrega: 2019-04-18 // Fecha Oficial de entrega: 2019-04-21 -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:complexType name="infoAcademica">	
+		<xs:sequence>
+			<xs:element name="grupo" type="infoGrupo"/>
+			<xs:element name="asignatura" type="infoAsignatura" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:anyAttribute/>
+	</xs:complexType>
+		
+<xs:simpleType name="infoGrupo">
+  <xs:restriction base="xs:string">
+    <xs:enumeration value="1smr"/>
+    <xs:enumeration value="2smr"/>
+    <xs:enumeration value="1dam"/>
+    <xs:enumeration value="2dam"/>
+  </xs:restriction>
+</xs:simpleType>
+  
+	<xs:complexType name="infoAsignatura">
+		<xs:sequence>
+			<xs:element name="nombreAsignatura" type="xs:string"/>
+			<xs:element name="nombreProfesor" type="xs:string"/>
+			<xs:element name="horasSemanales" type="xs:integer"/>
+		</xs:sequence>
+    <xs:attribute name="obligatoria" type="xs:boolean"/>
+	</xs:complexType>
+	
+</xs:schema>

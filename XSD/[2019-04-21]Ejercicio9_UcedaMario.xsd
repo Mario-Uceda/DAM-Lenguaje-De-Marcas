@@ -1,0 +1,14 @@
+<!-- Mario Uceda Yeves
+Módulo: Lenguaje de Marcas // Ciclo: Desarrollo de Aplicaciones Multiplataforma (DAM)
+Fecha entrega: 2019-04-18 // Fecha Oficial de entrega: 2019-04-21 -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  
+  <xs:element name="ul">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="li" maxOccurs="unbounded" type="xs:string"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

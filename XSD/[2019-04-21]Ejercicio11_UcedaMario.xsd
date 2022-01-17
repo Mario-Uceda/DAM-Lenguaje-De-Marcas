@@ -1,0 +1,21 @@
+<!-- Mario Uceda Yeves
+Módulo: Lenguaje de Marcas // Ciclo: Desarrollo de Aplicaciones Multiplataforma (DAM)
+Fecha entrega: 2019-04-18 // Fecha Oficial de entrega: 2019-04-21 -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:include schemaLocation="5.xsd"/>
+	<xs:element name="TiendaRopa">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="prendas">
+					<xs:complexType>
+						<xs:sequence>
+							<xs:element name="pantalon" type="tamañoRopa"/>
+							<xs:element name="camiseta" type="tamañoRopa"/>
+							<xs:element name="camisa" type="tamañoRopa"/>
+						</xs:sequence>
+					</xs:complexType>
+				</xs:element>
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

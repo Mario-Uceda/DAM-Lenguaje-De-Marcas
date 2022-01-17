@@ -1,0 +1,41 @@
+<!-- Mario Uceda Yeves
+Módulo: Lenguaje de Marcas // Ciclo: Desarrollo de Aplicaciones Multiplataforma (DAM)
+Fecha entrega: 2019-04-18 // Fecha Oficial de entrega: 2019-04-21 -->
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="empresa">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="empleados" maxOccurs="unbounded">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="datos" type="datosempleado"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <xs:complexType name="datosempleado">
+    <xs:sequence>
+      <xs:element ref="nombre"/>
+      <xs:element ref="apellidos"/>
+      <xs:element ref="departamento"/>
+      <xs:element ref="sueldo"/>
+      <xs:element ref="jefe"/>
+    </xs:sequence>
+  </xs:complexType>
+
+  <xs:element name="nombre" type="xs:string"/>
+  <xs:element name="apellidos" type="xs:string"/>
+  <xs:element name="departamento" type="xs:string"/>
+  <xs:element name="sueldo" type="xs:decimal"/>
+  <xs:element name="jefe" type="xs:string"/>
+  <xs:element name="firstname" substitutionGroup="nombre"/>
+  <xs:element name="lastname" substitutionGroup="apellidos"/>
+  <xs:element name="department" substitutionGroup="departamento"/>
+  <xs:element name="salary" substitutionGroup="sueldo"/>
+  <xs:element name="boss" substitutionGroup="jefe"/>
+
+</xs:schema>

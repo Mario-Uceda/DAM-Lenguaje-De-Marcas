@@ -1,0 +1,15 @@
+<!-- Mario Uceda Yeves
+Módulo: Lenguaje de Marcas // Ciclo: Desarrollo de Aplicaciones Multiplataforma (DAM)
+Fecha entrega: 2019-04-18 // Fecha Oficial de entrega: 2019-04-21 -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<xs:element name="coche">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="marca" type="xs:string"/>
+				<xs:element name="modelo" type="xs:string"/>				
+				<xs:any minOccurs="0" maxOccurs="unbounded"/>
+			</xs:sequence>
+			<xs:anyAtributte/>
+		</xs:complexType>
+	</xs:element>
+</xs:schema>

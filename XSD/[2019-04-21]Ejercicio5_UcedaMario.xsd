@@ -1,0 +1,28 @@
+<!-- Mario Uceda Yeves
+Módulo: Lenguaje de Marcas // Ciclo: Desarrollo de Aplicaciones Multiplataforma (DAM)
+Fecha entrega: 2019-04-18 // Fecha Oficial de entrega: 2019-04-21 --> 
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  
+  <xs:simpleType name="tamañoRopa">
+    <xs:union memberTypes="tamañoNumero tamañoLetra" />
+  </xs:simpleType>
+
+  <xs:simpleType name="tamañoNumero">
+    <xs:restriction base="xs:positiveInteger">
+      <xs:minInclusive value="10"/>
+      <xs:maxInclusive value="99"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <xs:simpleType name="tamañoLetra">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="xs"/>
+      <xs:enumeration value="s"/>
+      <xs:enumeration value="m"/>
+      <xs:enumeration value="l"/>
+      <xs:enumeration value="xl"/>
+      <xs:enumeration value="xl"/>
+    </xs:restriction>
+  </xs:simpleType>
+  
+</xs:schema>

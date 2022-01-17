@@ -1,0 +1,35 @@
+<xs:schema>
+	<xs:element name="alumnos">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="persona" type="persona" maxOccurs="unbounded"/>	
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+	
+	<xs:complexType name="persona">
+		<xs:sequence>
+			<xs:element name="datosPersonales" type="infoPersonal"/>
+			<xs:element name="datosAcademicos" type="infoAcademica"/>
+		</xs:sequence>
+	</xs:complexType>
+	
+	<xs:complexType name="infoPersonal">	
+		<xs:sequence>
+			<xs:element name="nombre" type="xs:string"/>
+			<xs:element name="apellidos" type="xs:string"/>
+			<xs:element name="dni">
+				<xs:simpleType>
+					<xs:restricion base="xs:string">
+						<xs:pattern value="[0-9]{9}[A-Z]"/>
+					</xs:restricion>
+				</xs:simpleType>
+			</xs:element>
+			<xs:element name="fechaNacimiento" type="xs:date"/>
+			<xs:any minOccurs="0" maxOccurs="unbounded"/>
+		</xs:sequence>
+		<xs:anyAttributte/>
+	</xs:complexType>
+		
+</xs:schema>
