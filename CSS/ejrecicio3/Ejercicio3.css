@@ -1,0 +1,147 @@
+#contenido{
+    position: absolute;
+    width: 770px;
+    border-right: 10px solid #FFF;
+    top: 95px;
+}
+#contenedor {
+    width: 770px;
+    margin: auto;
+    position: relative;
+} 
+#principal {
+    width: 530px;
+    position: absolute;
+    top: 50px;
+    left: 5px;
+    border-left: 20px solid #FFF;
+    border-top: 15px solid #FFF;
+    float: left;  
+}
+#secundario {
+    width: 200px;
+    background-color:#CEDBF9;
+    position: absolute;
+    right: 5px;
+    top: 50px;
+    border-top: 15px solid #FFF; 
+    border-right: 15px solid #FFF;
+}
+#pie {
+    height: 60px;
+    width: 770px;
+    background-image: url(Ejercicio3_Files/fondo_pie.jpg);
+    position: absolute;
+    top: 935px;
+    left: 5;
+    
+}
+#pie p{
+    margin-left: 50px;
+}
+h1 a { 
+    color: #FFF;
+    font-family: Georgia;
+    font-weight:normal;
+    float: left;
+    padding-top: 30px;
+    margin-left: 30px;
+}
+h1 a:hover{
+    color: #B5C4E3;
+}
+.articulo {
+    background-image: url(Ejercicio3_Files/fondo_articulo.jpg);
+    background-repeat: no-repeat;
+    padding-top: 20px;
+    width: 530px;
+    height: 250px;
+}
+#secundario {
+    background-image: url(Ejercicio3_Files/fondo_columna.gif);
+    background-repeat:no-repeat;
+}
+.articulo .info, .articulo .info a{
+    color: #B5C4E3;
+    font-family: Verdana;
+    font-weight: bold;
+}
+.articulo .info a:hover{
+    color: #FF9000;
+}
+.sobremi a:hover, .{
+    color: #192666;
+}
+a:hover{
+    color: #4F6AD7;
+}
+p{
+    font-size: 70%;
+    color: #192666;
+    font-family: Verdana;
+    font-weight: nolmal;
+}
+#cabecera {
+    background-image: url("Ejercicio3_Files/cabecera.jpg");
+    background-repeat: no-repeat;
+    height: 100px;
+}
+body {
+    background-image: url("Ejercicio3_Files/fondo.gif");
+    background-repeat: repeat-x;
+    padding-top: 50px;
+}
+#buscador{
+    float: right;
+    padding-top: 35px;
+    padding-right: 15px
+}
+#buscador fieldset {
+    border: none;
+}
+#buscador legend {
+    display: none;
+}
+#menu li {
+    display: inline-block;
+    position: relative;
+    font-family: Verdana;
+    left: -25px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+    background-color:#253575;
+}
+#menu{
+    position: absolute;
+    background-color:#192666;
+    height: 46px;
+    width: 760px;
+    margin-left: 5px;
+}
+#categorias li:hover, #archivo li:hover, #enlaces li:hover, .seleccionado {
+    background-color:#E0E8FA;
+}
+#categorias li, #archivo li, #enlaces li{
+    list-style:none;
+}
+#menu li:hover {
+    background-color:#31479B;
+}
+#menu .seleccionado, #menu .seleccionado:hover {
+    background-color:#FFF;
+}
+h2, h2 a {
+    color: #192666;
+    background-color:#DEE5FD;
+    font-family: Georgia;
+    font-weight: normal;
+}
+h3, h3 a  {
+    color: #192666;
+    background-color:#A0B9F3;
+    font-family: Verdana;
+    font-weight: bold;
+}
