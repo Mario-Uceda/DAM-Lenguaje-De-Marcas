@@ -1,0 +1,23 @@
+<!-- Mario Uceda Yeves
+Lenguaje de Marcas // Desarrollo de Aplicaciones Multiplataforma (DAM)
+Fecha de entrega: 2019-02-15 // Fecha oficial de entrega: 2019-02-15-->
+
+<!ELEMENT edificios (residencia | apartamento | oficina | tienda)*>
+    <!ELEMENT residencia (%edificio;, nPersonas)>
+    <!ELEMENT apartamento (%edificio;, nPersonas, piso, letra, escalera?)>
+    <!ELEMENT oficina (%edificio;, nEmpleados, CIF)>
+    <!ELEMENT tienda (%edificio;, nEmpleados, CIF, hApertura, hCierre)>
+    <!ENTITY % edificio "(nombre?, calle, codigoPostal, ciudad, telefono?)">
+    <!ELEMENT nombre #PCDATA>
+    <!ELEMENT calle #PCDATA>
+    <!ELEMENT codigoPostal #PCDATA>
+    <!ELEMENT ciudad #PCDATA>
+    <!ELEMENT telefono #PCDATA>
+    <!ELEMENT nPersonas #PCDATA>
+    <!ELEMENT piso #PCDATA>
+    <!ELEMENT letra #PCDATA>
+    <!ELEMENT escalera #PCDATA>
+    <!ELEMENT nEmpleado #PCDATA>
+    <!ELEMENT CIF #PCDATA>
+    <!ELEMENT hApertura #PCDATA>
+    <!ELEMENT hCierre #PCDATA>

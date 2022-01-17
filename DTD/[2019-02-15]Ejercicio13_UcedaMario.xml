@@ -1,0 +1,40 @@
+<!-- Mario Uceda Yeves
+Lenguaje de Marcas // Desarrollo de Aplicaciones Multiplataforma (DAM)
+Fecha de entrega: 2019-02-15 // Fecha oficial de entrega: 2019-02-15-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE edificios SYSTEM "[2019-02-15]Ejercicio13_UcedaMario.dtd">
+<aeropuertos>
+    <aeropuerto codigo="1">
+        <nombre>Barajas</nombre>
+        <fecha>2019-02-14</fecha>
+        <vuelo>
+            <Código>1</Código>
+            <Origen>madrid</Origen>
+            <Destino>barcelona</Destino>
+            <HSalida>17:00</HSalida>
+            <HLlegada>18:00</HLlegada>
+            <estado>en hora</estado>
+        </vuelo> 
+        <vuelo>
+            <Código>2</Código>
+            <Origen>madrid</Origen>
+            <Destino>cuenca</Destino>
+            <HSalida>19:00</HSalida>
+            <HLlegada>20:00</HLlegada>
+            <estado>retrasado</estado>
+        </vuelo>   
+    </aeropuerto>
+    <aeropuerto codigo="2">
+        <nombre>murcia Airport</nombre>
+        <fecha>2019-02-14</fecha>
+        <vuelo>
+            <Código>3</Código>
+            <Origen>murcia</Origen>
+            <Destino>marte</Destino>
+            <HSalida>17:00</HSalida>
+            <HLlegada>24:00</HLlegada>
+            <estado>cancelado</estado>
+        </vuelo> 
+    </aeropuerto>
+</aeropuertos>

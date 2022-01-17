@@ -1,0 +1,16 @@
+<!-- Mario Uceda Yeves
+Lenguaje de Marcas // Desarrollo de Aplicaciones Multiplataforma (DAM)
+Fecha de entrega: 2019-02-15 // Fecha oficial de entrega: 2019-02-15-->
+
+    <!ELEMENT aeropuertos (aeropuerto+)>
+    <!ELEMENT aeropuerto (nombre,fecha,vuelo+)>
+        <!ATTLIST aeropuerto Código ID #REQUIRED>
+        <!ELEMENT vuelo (código, origen, destino, hSalida, hLlegada, estado)>
+            <!ELEMENT nombre (#PCDATA)>
+            <!ELEMENT fecha DATE>
+            <!ELEMENT código (#PCDATA)>
+            <!ELEMENT origen (#PCDATA)>
+            <!ELEMENT destino (#PCDATA)>
+            <!ELEMENT hSalida (#PCDATA)>
+            <!ELEMENT hLlegada (#PCDATA)>
+            <!ELEMENT estado ("cancelado"|"en hora"|"retrasado") "en hora">

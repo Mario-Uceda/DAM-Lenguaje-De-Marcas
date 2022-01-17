@@ -1,0 +1,47 @@
+<!-- Mario Uceda Yeves
+Lenguaje de Marcas // Desarrollo de Aplicaciones Multiplataforma (DAM)
+Fecha de entrega: 2019-02-15 // Fecha oficial de entrega: 2019-02-15-->
+
+<!ELEMENT edificios (residencia | apartamento | oficina | tienda)*>
+    <!ELEMENT residencia EMPTY>
+    <!ATTLIST residencia
+        nombre CDATA #IMPLIED
+        calle CDATA #REQUIRED                    
+        cPostal CDATA #REQUIRED
+        ciudad CDATA #REQUIRED     
+        telefono CDATA #IMPLIED     
+        nPersonas CDATA #REQUIRED>
+        
+    <!ELEMENT apartamento EMPTY>
+    <!ATTLIST apartamento
+        nombre CDATA #IMPLIED
+        calle CDATA #REQUIRED                    
+        cPostal CDATA #REQUIRED
+        ciudad CDATA #REQUIRED     
+        telefono CDATA #IMPLIED     
+        nPersonas CDATA #REQUIRED>
+        piso CDATA #REQUIRED                    
+        letra CDATA #REQUIRED
+        escalera CDATA #IMPLIED>
+        
+    <!ELEMENT oficina EMPTY>
+    <!ATTLIST oficina
+        nombre CDATA #IMPLIED
+        calle CDATA #REQUIRED                    
+        cPostal CDATA #REQUIRED
+        ciudad CDATA #REQUIRED     
+        telefono CDATA #IMPLIED     
+        nEmpleado CDATA #REQUIRED>
+        CIF CDATA #REQUIRED>
+        
+    <!ELEMENT tienda EMPTY>
+    <!ATTLIST tienda
+        nombre CDATA #IMPLIED
+        calle CDATA #REQUIRED                    
+        cPostal CDATA #REQUIRED
+        ciudad CDATA #REQUIRED     
+        telefono CDATA #IMPLIED     
+        nEmpleados CDATA #REQUIRED>
+        CIF CDATA #REQUIRED                    
+        hApertura CDATA #REQUIRED
+        hcierre CDATA #REQUIRED>

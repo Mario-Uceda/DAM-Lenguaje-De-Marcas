@@ -1,0 +1,12 @@
+<!-- Mario Uceda Yeves
+Lenguaje de Marcas // Desarrollo de Aplicaciones Multiplataforma (DAM)
+Fecha de entrega: 2019-02-15 // Fecha oficial de entrega: 2019-02-15-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE edificios SYSTEM "[2019-02-15]Ejercicio20_UcedaMario.dtd">
+<edificios>
+    <residencia nombre="croquetas" calle="piruleta" codigoPostal="22222" ciudad="Madrid" telefono="666666666" nPersonas="3"></residencia>
+    <apartamento calle="farola" codigoPostal="33333" ciudad="Barcelona" telefono="777777777" nPersonas="5" piso="3" letra="a" escalera="2"></apartamento>
+    <oficina nombre="terminator" calle="remolacha" codigoPostal="44444" ciudad="Valencia" telefono="777777777" nEmpleados="31" CIF="12445"></oficina>
+    <tienda nombre="superbazar" calle="chinatown" codigoPostal="55555" ciudad="Albacete" telefono="888888888" nEpleados="3" CIF="12345" hApertura="00:00" hCierre="00:00"></tienda>
+</edificios>

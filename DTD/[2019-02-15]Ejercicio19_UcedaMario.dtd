@@ -1,0 +1,31 @@
+<personas>
+    <persona>
+        <nombre>Mario</nombre>
+        <apellidos>Uceda Yeves</apellidos>
+        <nacimiento dia="01" mes="05" anio="2000"/>
+        <direccion>
+            <calle>piruleta</calle>
+            <poblacion>getafe</poblacion>
+            <provincia>madrid</provincia>
+            <cpostal>28909</cpostal>
+            <varon></varon>
+        </direccion>
+    </persona>
+    <persona>
+        <nombre>Ana</nombre>
+        <apellidos>Garcia Perez</apellidos>
+        <direccion>
+            <calle>croquetita</calle>
+            <poblacion>rivas</poblacion>
+            <provincia>madrid</provincia>
+            <cpostal>23021</cpostal>
+        </direccion>
+        <direccion>
+            <calle>farola</calle>
+            <poblacion>villaverde</poblacion>
+            <provincia>madrid</provincia>
+            <cpostal>27303</cpostal>
+        </direccion>
+        <hembra></hembra>
+    </persona>
+</personas>

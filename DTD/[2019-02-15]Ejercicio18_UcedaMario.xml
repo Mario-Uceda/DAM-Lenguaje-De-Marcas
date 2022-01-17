@@ -1,0 +1,45 @@
+<!-- Mario Uceda Yeves
+Lenguaje de Marcas // Desarrollo de Aplicaciones Multiplataforma (DAM)
+Fecha de entrega: 2019-02-15 // Fecha oficial de entrega: 2019-02-15-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE edificios SYSTEM "[2019-02-15]Ejercicio18_UcedaMario.dtd">
+<edificios>
+    <residencia>
+        <nombre>croquetas</nombre>
+        <calle>piruleta</calle>
+        <codigoPostal>22222</codigoPostal>
+        <ciudad>Madrid</ciudad>
+        <telefono>666666666</telefono>
+        <nPersonas>3</nPersonas>
+    </residencia>
+    <apartamento>
+        <calle>farola</calle>
+        <codigoPostal>33333</codigoPostal>
+        <ciudad>Barcelona</ciudad>
+        <nPersonas>5</nPersonas>
+        <piso>3</piso>
+        <letra>a</letra>
+        <escalera>2</escalera>
+    </apartamento>
+    <oficina>
+        <nombre>terminator</nombre>
+        <calle>remolacha</calle>
+        <codigoPostal>44444</codigoPostal>
+        <ciudad>Valencia</ciudad>
+        <telefono>777777777</telefono>
+        <nEmpleados>31</nEmpleados>
+        <CIF>12445</CIF>
+    </oficina>
+    <tienda>
+        <nombre>supebazar</nombre>
+        <calle>chinatown</calle>
+        <codigoPostal>55555</codigoPostal>
+        <ciudad>Albacete</ciudad>
+        <telefono>88888888</telefono>
+        <nEmpleados>3</nEmpleados>
+        <CIF>12345</CIF>
+        <hApertura>00:00</hApertura>
+        <hCierre>00:00</hCierre>
+    </tienda>
+</edificios>

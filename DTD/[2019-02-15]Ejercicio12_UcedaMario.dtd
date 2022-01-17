@@ -1,0 +1,11 @@
+<!-- Mario Uceda Yeves
+Lenguaje de Marcas // Desarrollo de Aplicaciones Multiplataforma (DAM)
+Fecha de entrega: 2019-02-15 // Fecha oficial de entrega: 2019-02-15-->
+
+<!ELEMENT cine (peliculas,actores)>
+<!ELEMENT peliculas (pelicula)*>
+<!ELEMENT pelicula (#PCDATA)>
+<!ATTLIST pelicula codpel ID (P1 | P2 | P3 | P4 | P5) #IMPLIED>
+<!ELEMENT actores (actor)*>
+<!ELEMENT actor (#PCDATA)>
+<!ATTLIST actor filmografia ID #REQUIRED>

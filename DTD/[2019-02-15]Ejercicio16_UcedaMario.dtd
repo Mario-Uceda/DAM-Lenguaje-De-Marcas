@@ -1,0 +1,9 @@
+<!-- Mario Uceda Yeves
+Lenguaje de Marcas // Desarrollo de Aplicaciones Multiplataforma (DAM)
+Fecha de entrega: 2019-02-15 // Fecha oficial de entrega: 2019-02-15-->
+
+<!ELEMENT cosasPorHacer (cosa)*>
+<!ELEMENT cosa (#PCDATA)>
+    <!ATTLIST cosa fecha CDATA #REQUIRED>
+    <!ATTLIST cosa asunto CDATA #IMPLIED>
+    <!ATTLIST cosa fechaLimite CDATA #REQUIRED>  

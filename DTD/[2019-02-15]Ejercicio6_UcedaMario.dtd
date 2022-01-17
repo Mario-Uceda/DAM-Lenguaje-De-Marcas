@@ -1,0 +1,8 @@
+<!-- Mario Uceda Yeves
+Lenguaje de Marcas // Desarrollo de Aplicaciones Multiplataforma (DAM)
+Fecha de entrega: 2019-02-15 // Fecha oficial de entrega: 2019-02-15-->
+
+<!ELEMENT contacto ( (nombre & ( (telefono? & direccion?) | (direccion? & telefono?) ) ) | ( (telefono? & direccion?) | (direccion? & telefono?) )  & nombre & ( (telefono? & direccion?) | (direccion? & telefono?) ) | ( ( (telefono? & direccion?) | (direccion? & telefono?) ) & nombre ) )>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT telefono (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>

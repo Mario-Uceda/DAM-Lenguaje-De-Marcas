@@ -1,0 +1,55 @@
+<!-- Mario Uceda Yeves
+Lenguaje de Marcas // Desarrollo de Aplicaciones Multiplataforma (DAM)
+Fecha de entrega: 2019-02-15 // Fecha oficial de entrega: 2019-02-15-->
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE personas [
+    <!ELEMENT personas (persona+)>
+    <!ELEMENT persona (nombre, apellidos, nacimiento?, direccion+, (varon | hembra))>
+    <!ELEMENT nombre (#PCDATA)>
+    <!ELEMENT apellidos (#PCDATA)>
+    <!ELEMENT nacimiento EMPTY>
+    <!ATTLIST nacimiento
+        dia CDATA #REQUIRED
+        mes CDATA #REQUIRED                    
+        anio CDATA #REQUIRED>
+    <!ELEMENT direccion (cale, poblacion, provincia, cpostal)>
+    <!ELEMENT calle (#PCDATA)>
+    <!ELEMENT poblacion (#PCDATA)>
+    <!ELEMENT provincia (#PCDATA)>
+    <!ELEMENT cpostal (#PCDATA)>
+    <!ELEMENT varon EMPTY>
+    <!ELEMENT hembra EMPTY>
+]>
+
+<personas>
+    <persona>
+        <nombre>Mario</nombre>
+        <apellidos>Uceda Yeves</apellidos>
+        <nacimiento dia="01" mes="05" anio="2000"/>
+        <direccion>
+            <calle>piruleta</calle>
+            <poblacion>getafe</poblacion>
+            <provincia>madrid</provincia>
+            <cpostal>28909</cpostal>
+            <varon/>
+        </direccion>
+    </persona>
+    <persona>
+        <nombre>Ana</nombre>
+        <apellidos>Garcia Perez</apellidos>
+        <direccion>
+            <calle>croquetita</calle>
+            <poblacion>rivas</poblacion>
+            <provincia>madrid</provincia>
+            <cpostal>23021</cpostal>
+        </direccion>
+        <direccion>
+            <calle>farola</calle>
+            <poblacion>villaverde</poblacion>
+            <provincia>madrid</provincia>
+            <cpostal>27303</cpostal>
+        </direccion>
+        <hembra/>
+    </persona>
+</personas>

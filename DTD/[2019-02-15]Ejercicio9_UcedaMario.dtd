@@ -1,0 +1,9 @@
+<!-- Mario Uceda Yeves
+Lenguaje de Marcas // Desarrollo de Aplicaciones Multiplataforma (DAM)
+Fecha de entrega: 2019-02-15 // Fecha oficial de entrega: 2019-02-15-->
+
+
+<!ELEMENT vuelos (vuelo*) >
+<!ELEMENT vuelo ( (origen, destino) | (destino, origen) ) >
+<!ELEMENT origen (#PCDATA)>
+<!ELEMENT destino (#PCDATA)>

@@ -1,0 +1,10 @@
+<!-- Mario Uceda Yeves
+Lenguaje de Marcas // Desarrollo de Aplicaciones Multiplataforma (DAM)
+Fecha de entrega: 2019-02-15 // Fecha oficial de entrega: 2019-02-15-->
+
+<!ELEMENT reyesEspañoles )(rey | reina)+)>
+<!ELEMENT rey (nombre,padre,madre)>
+<!ELEMENT reina (nombre,padre,madre)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT padre (#PCDATA)>
+<!ELEMENT madre (#PCDATA)>

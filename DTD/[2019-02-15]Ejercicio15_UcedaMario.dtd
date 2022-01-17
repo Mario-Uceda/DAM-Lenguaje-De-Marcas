@@ -1,0 +1,10 @@
+<!-- Mario Uceda Yeves
+Lenguaje de Marcas // Desarrollo de Aplicaciones Multiplataforma (DAM)
+Fecha de entrega: 2019-02-15 // Fecha oficial de entrega: 2019-02-15-->
+
+<!ELEMENT declaraciones (consonante | tipo_de_dato | variable)*>
+<!ELEMENT consonante (#PCDATA)>
+    <!ATTLIST consonante valor CDATA #REQUIRED>
+<!ELEMENT tipo_de_dato (#PCDATA)>
+<!ELEMENT variable (#PCDATA)>
+    <!ATTLIST variablo tipo CDATA #IMPLIED>

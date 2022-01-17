@@ -1,0 +1,17 @@
+<!-- Mario Uceda Yeves
+Lenguaje de Marcas // Desarrollo de Aplicaciones Multiplataforma (DAM)
+Fecha de entrega: 2019-02-15 // Fecha oficial de entrega: 2019-02-15-->
+
+<pizzas>
+    <ingredientes>
+        <ingrediente coding="HUE">Huevo</ingrediente>
+        <ingrediente coding="CHA">Champiñón</ingrediente>
+        <ingrediente coding="CHO">Chorizo</ingrediente>
+        <ingrediente coding="CAL">Calabacín</ingrediente>
+        <ingrediente coding="JAM">Jamón de York</ingrediente>
+    </ingredientes>
+    <tipos>
+        <tipo nombre="Fantástica" ingredientes="CAL, CHA"/>
+        <tipo nombre="Sabrosa" ingredientes="CHA, CHO, JAM, HUE"/>
+    </tipos>
+</pizzas>

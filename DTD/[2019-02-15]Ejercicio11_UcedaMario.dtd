@@ -1,0 +1,22 @@
+Mario Uceda Yeves
+Lenguaje de Marcas // Desarrollo de Aplicaciones Multiplataforma (DAM)
+Fecha de entrega: 2019-01-16 // Fecha oficial de entrega: 2019-02-15
+
+<?xml vrsion "1.0" encoding="UTF-8"?>
+<!DOCTYPE formas [
+    <!ELEMENT formas (cuadrado, triangulo, circulo, otra)>
+    <!ELEMENT cuadrado (#PCDATA)>
+    <!ATTLIST cuadrado lados CDATA #REQUIRED>
+    <!ELEMENT triangulo (#PCDATA)>
+    <!ATTLIST triangulo lados CDATA #REQUIRED>
+    <!ELEMENT circulo (#PCDATA)>
+    <!ELEMENT otra (#PCDATA)>
+    <!ATTLIST otra lados CDATA #REQUIRED>
+]
+
+<formas>
+    <cuadrado lado="4">tablero</cuadrado>
+    <triangulo lados="3">señal</triangulo>
+    <circulo>anilla</circulo>
+    <otra lados=7/>
+</formas>

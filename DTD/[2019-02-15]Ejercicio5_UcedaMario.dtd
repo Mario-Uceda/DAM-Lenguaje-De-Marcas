@@ -1,0 +1,12 @@
+Mario Uceda Yeves
+Lenguaje de Marcas // Desarrollo de Aplicaciones Multiplataforma (DAM)
+Fecha de entrega: 2019-01-16 // Fecha oficial de entrega: 2019-02-15
+
+<!ELEMENT colores ((color|#PCDATA)*)>
+<!ELEMENT color (#PCDATA)>
+
+<colores>
+    <color>azul marino</color>
+    negro
+    <color>amarillo</color>
+</colores>

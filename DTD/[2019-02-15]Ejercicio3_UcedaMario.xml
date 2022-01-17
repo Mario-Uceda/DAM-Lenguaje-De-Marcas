@@ -1,0 +1,14 @@
+<!-- Mario Uceda Yeves
+Lenguaje de Marcas // Desarrollo de Aplicaciones Multiplataforma (DAM)
+Fecha de entrega: 2019-02-15 // Fecha oficial de entrega: 2019-02-15-->
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE numeros [
+<!ELEMENT numeros (numero)>
+<!ELEMENT numero (#PCDATA)>
+]>
+
+<numeros>
+    <numero>25</numero>
+</numeros>

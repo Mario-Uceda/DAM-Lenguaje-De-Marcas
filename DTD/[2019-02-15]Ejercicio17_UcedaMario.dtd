@@ -1,0 +1,9 @@
+<!-- Mario Uceda Yeves
+Lenguaje de Marcas // Desarrollo de Aplicaciones Multiplataforma (DAM)
+Fecha de entrega: 2019-02-15 // Fecha oficial de entrega: 2019-02-15-->
+
+<!ELEMENT resoluciones (resolución+)>
+<!ELEMENT resolucion EMPTY>
+    <!ATTLIST resolucion nombre CDATA #REQUIRED>
+    <!ATTLIST resolucion alto CDATA #REQUIRED>
+    <!ATTLIST resolucion ancho CDATA #REQUIRED>

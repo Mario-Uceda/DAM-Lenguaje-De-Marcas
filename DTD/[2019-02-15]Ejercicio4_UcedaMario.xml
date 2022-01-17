@@ -1,0 +1,15 @@
+<!-- Mario Uceda Yeves
+Lenguaje de Marcas // Desarrollo de Aplicaciones Multiplataforma (DAM)
+Fecha de entrega: 2019-02-15 // Fecha oficial de entrega: 2019-02-15-->
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE letras [
+<!ELEMENT letras (letra*)>
+<!ELEMENT letra (#PCDATA)>
+]>
+
+<letras>
+    <letra>m</letra>
+    <letra>uve doble</letra>
+</letras>
