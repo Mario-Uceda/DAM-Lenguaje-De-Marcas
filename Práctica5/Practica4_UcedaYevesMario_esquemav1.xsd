@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Mario Uceda Yeves
+Módulo: Lenguaje de Marcas // Ciclo: Desarrollo de Aplicaciones Multiplataforma (DAM)
+Fecha entrega: 2019-04-21 // Fecha Oficial de entrega: 2019-04-21 
+Link del XML y XSD de esta versión validados.
+https://drive.google.com/drive/folders/1a1NHj-A5CiuyvuLmKr3nrbaZFghYAi2A?usp=sharing
+-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    
+    <!--
+        En la primera y segunda versión del juego el elemento raiz(partida) tenia como elemento hijo el elemento mochila.
+        Para poder validar estas versiones por separado, solo tendría que incluir esto en este xsd como muestro en el link de arriba.
+
+                    <xs:element name="partida">	
+                        <xs:complexType>
+                            <xs:sequence>
+                                <xs:element ref="mochila"/>
+                            </xs:sequence>
+                        </xs:complexType>
+                    </xs:element>
+    -->
+    
+    <!--Inicio de los elementos globales-->
+    <xs:element name="pokemon" type="tipoPokemon"/>
+    <xs:element name="mochila" type="tipoMochila"/>
+    <!--Inicio de los elementos vacios-->
+    <xs:element name="pokemontura">
+        <xs:complexType/>
+    </xs:element>
+    <!--Fin de los elementos vacios-->
+    <!--Fin de los elementos globales-->
+    
+    <!--Inicio de los tipos simples-->
+    <xs:simpleType name="tipoNombre">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[a-zA-Z0-9_ñ']{0,35}"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="tipoStat">
+        <xs:restriction base="xs:integer">
+            <xs:minInclusive value="10"/>
+            <xs:maxInclusive value="9999"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="tipoTipo">
+        <xs:restriction base="poketipo">
+            <xs:minLength value="1"/>
+            <xs:maxLength value="2"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="poketipo">
+        <xs:list>
+            <xs:simpleType>
+                <xs:restriction base="xs:string">
+                    <xs:enumeration value="Planta"/>
+                    <xs:enumeration value="Fuego"/>
+                    <xs:enumeration value="Agua"/>
+                    <xs:enumeration value="Normal"/>
+                    <xs:enumeration value="Eléctrico"/>
+                    <xs:enumeration value="Psíquico"/>
+                    <xs:enumeration value="Lucha"/>
+                    <xs:enumeration value="Roca"/>
+                    <xs:enumeration value="Tierra"/>
+                    <xs:enumeration value="Volador"/>
+                    <xs:enumeration value="Bicho"/>
+                    <xs:enumeration value="Veneno"/>
+                    <xs:enumeration value="Siniestro"/>
+                    <xs:enumeration value="Fantasma"/>
+                    <xs:enumeration value="Hielo"/>
+                    <xs:enumeration value="Acero"/>
+                    <xs:enumeration value="Dragón"/>
+                    <xs:enumeration value="Hada"/>
+                </xs:restriction>
+            </xs:simpleType>
+        </xs:list>
+    </xs:simpleType>
+    <!--Fin de los tipos simples--> 
+
+    <!--Inicio de los tipos complejos-->  
+    <xs:complexType name="tipoPokemon" mixed="true">
+        <xs:all>
+            <xs:element name="nivel" type="xs:integer"/>
+            <xs:element name="mote" type="tipoNombre"/>
+            <xs:element name="tipo" type="tipoTipo"/>
+            <xs:element name="ps" type="tipoStat"/>
+            <xs:element name="ataque" type="tipoStat"/>
+            <xs:element name="defensa" type="tipoStat"/>
+            <xs:element ref="pokemontura" minOccurs="0"/>
+        </xs:all>
+        <xs:attribute name="especie" type="tipoNombre"/>
+    </xs:complexType>
+
+    <xs:complexType name="tipoMochila">
+        <xs:sequence>
+            <xs:element ref="pokemon" minOccurs="0" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+    <!--Fin de los tipos complejos-->
+    
+</xs:schema>

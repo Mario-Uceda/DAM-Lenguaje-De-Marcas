@@ -1,0 +1,2145 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Mario Uceda Yeves
+Módulo: Lenguaje de Marcas // Ciclo: Desarrollo de Aplicaciones Multiplataforma (DAM)
+Fecha entrega: 2019-04-21 // Fecha Oficial de entrega: 2019-04-21 -->
+<?xml-stylesheet type="text/xsl" href="Practica5_UcedaYevesMario.xsl"?>
+<jugador xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="Practica4_UcedaYevesMario_esquemav3.xsd">
+    <nombre>Mario</nombre>
+    <chico/>
+    <fechaNacimiento>2000-05-01</fechaNacimiento>
+    <mochila>
+        <!-- Inicio Pokémons de Óscar -->
+        <pokemon especie="Noivern" fecha_captura="2016-05-17T18:46:24.7">
+            <nivel>78</nivel>
+            <mote>Kyrt</mote>
+            <tipo>Volador Dragón</tipo>
+            <ps>85</ps>
+            <ataque>70</ataque>
+            <defensa>80</defensa>
+            <pokemontura/>
+        </pokemon>
+        <pokemon especie="Minccino" fecha_captura="2015-01-22T16:02:01.4">
+            <nivel>65</nivel>
+            <mote>Nova</mote>
+            <tipo>Normal</tipo>
+            <ps>55</ps>
+            <ataque>50</ataque>
+            <defensa>40</defensa>
+        </pokemon>
+        <pokemon especie="Haxorus" fecha_captura="2010-04-15T16:55:34.8">
+            <nivel>58</nivel>
+            <mote>Kira</mote>
+            <tipo>Dragón</tipo>
+            <ps>76</ps>
+            <ataque>147</ataque>
+            <defensa>90</defensa>
+        </pokemon>
+        <pokemon especie="Carracosta" fecha_captura="2010-04-14T10:15:32.2">
+            <nivel>59</nivel>
+            <mote>Falls</mote>
+            <tipo>Agua Roca</tipo>
+            <ps>74</ps>
+            <ataque>108</ataque>
+            <defensa>133</defensa>
+            <pokemontura/>
+        </pokemon>
+        <pokemon especie="Leafeon" fecha_captura="2006-06-08T21:21:20.2">
+            <nivel>62</nivel>
+            <mote>Fox</mote>
+            <tipo>Planta</tipo>
+            <ps>65</ps>
+            <ataque>110</ataque>
+            <defensa>130</defensa>
+        </pokemon>
+        <pokemon especie="Gallade" fecha_captura="2015-12-21T12:41:17.5">
+            <nivel>32</nivel>
+            <mote>GuardaGris</mote>
+            <tipo>Psíquico Lucha</tipo>
+            <ps>68</ps>
+            <ataque>125</ataque>
+            <defensa>65</defensa>
+        </pokemon>
+        <pokemon especie="Torracat" fecha_captura="2017-11-30T17:02:13.5">
+            <nivel>51</nivel>
+            <mote>Kovu</mote>
+            <tipo>Fuego</tipo>
+            <ps>65</ps>
+            <ataque>85</ataque>
+            <defensa>50</defensa>
+        </pokemon>
+        <pokemon especie="Delphox" fecha_captura="2015-08-12T16:20:31.2">
+            <nivel>23</nivel>
+            <mote>Delphox</mote>
+            <tipo>Fuego Psíquico</tipo>
+            <ps>75</ps>
+            <ataque>69</ataque>
+            <defensa>72</defensa>
+        </pokemon>
+        <pokemon especie="Swoobat" fecha_captura="2015-01-22T17:12:26.5">
+            <nivel>46</nivel>
+            <mote>Sho</mote>
+            <tipo>Psíquico Volador</tipo>
+            <ps>67</ps>
+            <ataque>57</ataque>
+            <defensa>55</defensa>
+        </pokemon>
+        <pokemon especie="Litwick" fecha_captura="2015-01-27T14:32:21.8">
+            <nivel>46</nivel>
+            <mote>Chip</mote>
+            <tipo>Fantasma Fuego</tipo>
+            <ps>50</ps>
+            <ataque>30</ataque>
+            <defensa>55</defensa>
+        </pokemon>
+        <pokemon especie="Marowak" fecha_captura="2017-12-02T11:12:12.4">
+            <nivel>59</nivel>
+            <mote>Marowak</mote>
+            <tipo>Tierra</tipo>
+            <ps>60</ps>
+            <ataque>80</ataque>
+            <defensa>110</defensa>
+        </pokemon>
+        <pokemon especie="Tapu_Koko" fecha_captura="2017-12-04T16:25:14.2">
+            <nivel>70</nivel>
+            <mote>Coco</mote>
+            <tipo>Eléctrico Hada</tipo>
+            <ps>70</ps>
+            <ataque>115</ataque>
+            <defensa>85</defensa>
+        </pokemon>
+        <pokemon especie="Azelf" fecha_captura="2010-02-01T09:01:24.2">
+            <nivel>90</nivel>
+            <mote>Smurfy</mote>
+            <tipo>Psíquico</tipo>
+            <ps>75</ps>
+            <ataque>125</ataque>
+            <defensa>70</defensa>
+        </pokemon>
+        <!-- Fin Pokémons de Óscar -->
+        <!-- Inicio Pokémons de Diego -->
+        <pokemon especie="Arceus" fecha_captura="2019-04-01T13:36:25.0">
+            <nivel>100</nivel>
+            <mote>Caballito</mote>
+            <tipo>Normal</tipo>
+            <ps>381</ps>
+            <ataque>303</ataque>
+            <defensa>271</defensa>
+            <pokemontura/>
+        </pokemon>
+        <pokemon especie="Chikorita" fecha_captura="2019-04-01T13:40:25.0">
+            <nivel>89</nivel>
+            <mote>PerroHoja</mote>
+            <tipo>Planta</tipo>
+            <ps>206</ps>
+            <ataque>119</ataque>
+            <defensa>162</defensa>
+        </pokemon>
+        <pokemon especie="Meganium" fecha_captura="2019-04-01T13:46:25.0">
+            <nivel>89</nivel>
+            <mote>MegaHoja</mote>
+            <tipo>Planta</tipo>
+            <ps>292</ps>
+            <ataque>194</ataque>
+            <defensa>229</defensa>
+        </pokemon>
+        <pokemon especie="Tentacruel" fecha_captura="2019-04-02T01:23:25.0">
+            <nivel>47</nivel>
+            <mote>Kraken</mote>
+            <tipo>Agua Veneno</tipo>
+            <ps>146</ps>
+            <ataque>77</ataque>
+            <defensa>88</defensa>
+        </pokemon>
+        <pokemon especie="Lugia" fecha_captura="2019-04-02T01:28:25.0">
+            <nivel>99</nivel>
+            <mote>DragonBlanco</mote>
+            <tipo>Psíquico Volador</tipo>
+            <ps>349</ps>
+            <ataque>213</ataque>
+            <defensa>293</defensa>
+        </pokemon>
+        <pokemon especie="Regice" fecha_captura="2019-04-02T01:30:25.0">
+            <nivel>69</nivel>
+            <mote>TrozoDeHielo</mote>
+            <tipo>Hielo</tipo>
+            <ps>210</ps>
+            <ataque>86</ataque>
+            <defensa>180</defensa>
+        </pokemon>
+        <pokemon especie="Latios" fecha_captura="2019-04-02T01:36:25.0">
+            <nivel>33</nivel>
+            <mote>Plastico</mote>
+            <tipo>Dragón Psíquico</tipo>
+            <ps>106</ps>
+            <ataque>74</ataque>
+            <defensa>61</defensa>
+        </pokemon>
+        <pokemon especie="Regigigas" fecha_captura="2019-04-02T01:38:25.0">
+            <nivel>100</nivel>
+            <mote>RobotConArbustos</mote>
+            <tipo>Normal</tipo>
+            <ps>361</ps>
+            <ataque>356</ataque>
+            <defensa>256</defensa>
+        </pokemon>
+        <pokemon especie="Darkrai" fecha_captura="2019-04-02T01:40:45.0">
+            <nivel>71</nivel>
+            <mote>FantasmaNegro</mote>
+            <tipo>Siniestro</tipo>
+            <ps>202</ps>
+            <ataque>154</ataque>
+            <defensa>154</defensa>
+        </pokemon>
+        <pokemon especie="Bulbasaur" fecha_captura="2019-04-02T01:44:45.0">
+            <nivel>1</nivel>
+            <mote>TortugaLechuga</mote>
+            <tipo>Planta Veneno</tipo>
+            <ps>12</ps>
+            <ataque>10</ataque>
+            <defensa>10</defensa>
+        </pokemon>
+        <!-- Fin Pokémons de Diego -->
+        <!-- Inicio Pokémons de Maxim -->
+        <pokemon especie="Caterpie" fecha_captura="2010-01-01T08:00:00.0">
+            <nivel>1</nivel>
+            <mote>Gusano</mote>
+            <tipo>Bicho</tipo>
+            <ps>45</ps>
+            <ataque>30</ataque>
+            <defensa>35</defensa>
+        </pokemon>
+        <pokemon especie="Metapod" fecha_captura="2019-04-02T01:44:42.0">
+            <nivel>1</nivel>
+            <mote>Capujol</mote>
+            <tipo>Bicho</tipo>
+            <ps>50</ps>
+            <ataque>20</ataque>
+            <defensa>55</defensa>
+        </pokemon>
+        <pokemon especie="Butterfree" fecha_captura="2019-04-02T01:44:41.0">
+            <nivel>1</nivel>
+            <mote>NatureReclamation</mote>
+            <tipo>Bicho Volador</tipo>
+            <ps>60</ps>
+            <ataque>45</ataque>
+            <defensa>50</defensa>
+        </pokemon>
+        <pokemon especie="Weedle" fecha_captura="2019-04-02T01:44:40.0">
+            <nivel>1</nivel>
+            <mote>100pie</mote>
+            <tipo>Bicho Veneno</tipo>
+            <ps>40</ps>
+            <ataque>35</ataque>
+            <defensa>30</defensa>
+        </pokemon>
+        <pokemon especie="Kakuna" fecha_captura="2019-04-02T01:44:39.0">
+            <nivel>1</nivel>
+            <mote>Capullo</mote>
+            <tipo>Planta Veneno</tipo>
+            <ps>45</ps>
+            <ataque>25</ataque>
+            <defensa>50</defensa>
+        </pokemon>
+        <pokemon especie="Beedrill" fecha_captura="2019-04-02T01:44:38.0">
+            <nivel>1</nivel>
+            <mote>Broka</mote>
+            <tipo>Bicho Veneno</tipo>
+            <ps>65</ps>
+            <ataque>90</ataque>
+            <defensa>40</defensa>
+        </pokemon>
+        <pokemon especie="Pidgey" fecha_captura="2019-04-02T01:44:37.0">
+            <nivel>1</nivel>
+            <mote>Gorrion</mote>
+            <tipo>Normal Volador</tipo>
+            <ps>40</ps>
+            <ataque>45</ataque>
+            <defensa>40</defensa>
+        </pokemon>
+        <pokemon especie="Sharpedo" fecha_captura="2010-01-01T07:00:00.0">
+            <nivel>1</nivel>
+            <mote>Pedo</mote>
+            <tipo>Agua Siniestro</tipo>
+            <ps>70</ps>
+            <ataque>120</ataque>
+            <defensa>40</defensa>
+            <pokemontura/>
+        </pokemon>
+        <pokemon especie="Gogoat" fecha_captura="2010-01-01T06:00:00.0">
+            <nivel>1</nivel>
+            <mote>Cabra</mote>
+            <tipo>Planta</tipo>
+            <ps>123</ps>
+            <ataque>100</ataque>
+            <defensa>62</defensa>
+            <pokemontura/>
+        </pokemon>
+        <pokemon especie="Mudsdale" fecha_captura="2010-01-01T05:00:00.0">
+            <nivel>1</nivel>
+            <mote>Troya</mote>
+            <tipo>Tierra</tipo>
+            <ps>100</ps>
+            <ataque>125</ataque>
+            <defensa>100</defensa>
+            <pokemontura/>
+        </pokemon>
+        <!-- Fin Pokémons de Maxim -->
+        <!-- Inicio Pokémons de Daniel P.  -->
+        <pokemon especie="Ivysaur" fecha_captura="2019-04-01T14:01:25.0">
+            <nivel>16</nivel>
+            <mote>Bichito</mote>
+            <tipo>Planta Veneno</tipo>
+            <ps>60</ps>
+            <ataque>62</ataque>
+            <defensa>63</defensa>
+        </pokemon>
+        <pokemon especie="Venusaur" fecha_captura="2019-04-15T14:07:25.0">
+            <nivel>32</nivel>
+            <mote>Planton</mote>
+            <tipo>Planta Veneno</tipo>
+            <ps>80</ps>
+            <ataque>82</ataque>
+            <defensa>83</defensa>
+            <pokemontura/>
+        </pokemon>
+        <pokemon especie="Wartortle" fecha_captura="2019-04-15T14:09:25.0">
+            <nivel>16</nivel>
+            <mote>Tortuga</mote>
+            <tipo>Agua</tipo>
+            <ps>59</ps>
+            <ataque>63</ataque>
+            <defensa>80</defensa>
+        </pokemon>
+        <pokemon especie="Raticate" fecha_captura="2019-04-15T14:11:25.0">
+            <nivel>20</nivel>
+            <mote>Rata</mote>
+            <tipo>Normal</tipo>
+            <ps>55</ps>
+            <ataque>81</ataque>
+            <defensa>60</defensa>
+        </pokemon>
+        <pokemon especie="Spearow" fecha_captura="2019-04-15T14:12:25.0">
+            <nivel>1</nivel>
+            <mote>Pajarraco</mote>
+            <tipo>Normal Volador</tipo>
+            <ps>40</ps>
+            <ataque>60</ataque>
+            <defensa>30</defensa>
+        </pokemon>
+        <pokemon especie="Fearow" fecha_captura="2019-04-15T14:14:25.0">
+            <nivel>20</nivel>
+            <mote>PajaroGrande</mote>
+            <tipo>Normal Volador</tipo>
+            <ps>65</ps>
+            <ataque>90</ataque>
+            <defensa>65</defensa>
+        </pokemon>
+        <pokemon especie="Ekans" fecha_captura="2019-04-15T14:16:25.0">
+            <nivel>1</nivel>
+            <mote>Serpiente</mote>
+            <tipo>Veneno</tipo>
+            <ps>35</ps>
+            <ataque>60</ataque>
+            <defensa>44</defensa>
+        </pokemon>
+        <pokemon especie="Arbok" fecha_captura="2019-04-15T14:20:25.0">
+            <nivel>22</nivel>
+            <mote>Anaconda</mote>
+            <tipo>Veneno</tipo>
+            <ps>60</ps>
+            <ataque>95</ataque>
+            <defensa>69</defensa>
+            <pokemontura/>
+        </pokemon>
+        <pokemon especie="Sandshrew" fecha_captura="2019-04-15T14:21:25.0">
+            <nivel>1</nivel>
+            <mote>Armadillo</mote>
+            <tipo>Tierra</tipo>
+            <ps>50</ps>
+            <ataque>75</ataque>
+            <defensa>85</defensa>
+        </pokemon>
+        <pokemon especie="Sandslash" fecha_captura="2019-04-15T14:23:25.0">
+            <nivel>22</nivel>
+            <mote>Puas</mote>
+            <tipo>Tierra</tipo>
+            <ps>75</ps>
+            <ataque>100</ataque>
+            <defensa>110</defensa>
+        </pokemon>
+        <!-- Fin Pokémons de Daniel P.  -->
+        <!-- Inicio Pokémons de  Luis -->
+        <pokemon especie="Vanilluxe" fecha_captura="2019-01-01T15:22:22.3">
+            <nivel>1</nivel>
+            <mote>Canelito</mote>
+            <tipo>Hielo</tipo>
+            <ps>12</ps>
+            <ataque>10</ataque>
+            <defensa>10</defensa>
+            <pokemontura/>
+        </pokemon>
+        <pokemon especie="Deerling" fecha_captura="2019-01-02T17:55:12.5">
+            <nivel>50</nivel>
+            <mote>Moñas</mote>
+            <tipo>Normal Planta</tipo>
+            <ps>167</ps>
+            <ataque>123</ataque>
+            <defensa>112</defensa>
+        </pokemon>
+        <pokemon especie="Sawsbuck" fecha_captura="2019-01-03T10:32:02.3">
+            <nivel>23</nivel>
+            <mote>Hangers</mote>
+            <tipo>Normal Planta</tipo>
+            <ps>69</ps>
+            <ataque>51</ataque>
+            <defensa>37</defensa>
+            <pokemontura/>
+        </pokemon>
+        <pokemon especie="Emolga" fecha_captura="2019-01-04T20:01:54.8">
+            <nivel>66</nivel>
+            <mote>Soplillos</mote>
+            <tipo>Eléctrico Volador</tipo>
+            <ps>148</ps>
+            <ataque>104</ataque>
+            <defensa>84</defensa>
+        </pokemon>
+        <pokemon especie="Karrablast" fecha_captura="2019-01-05T12:30:00.0">
+            <nivel>100</nivel>
+            <mote>Pelotis</mote>
+            <tipo>Bicho</tipo>
+            <ps>210</ps>
+            <ataque>155</ataque>
+            <defensa>95</defensa>
+        </pokemon>
+        <pokemon especie="Escavalier" fecha_captura="2019-01-06T19:54:52.0">
+            <nivel>87</nivel>
+            <mote>Lanzarote</mote>
+            <tipo>Bicho Acero</tipo>
+            <ps>218</ps>
+            <ataque>239</ataque>
+            <defensa>187</defensa>
+            <pokemontura/>
+        </pokemon>
+        <pokemon especie="Foongus" fecha_captura="2019-01-06T22:22:22.2">
+            <nivel>34</nivel>
+            <mote>Champi</mote>
+            <tipo>Planta Veneno</tipo>
+            <ps>90</ps>
+            <ataque>42</ataque>
+            <defensa>35</defensa>
+        </pokemon>
+        <pokemon especie="Amoonguss" fecha_captura="2019-01-07T15:33:00.5">
+            <nivel>99</nivel>
+            <mote>Superchampi</mote>
+            <tipo>Planta Veneno</tipo>
+            <ps>334</ps>
+            <ataque>173</ataque>
+            <defensa>143</defensa>
+        </pokemon>
+        <pokemon especie="Frillish" fecha_captura="2019-01-08T11:11:11.1">
+            <nivel>70</nivel>
+            <mote>Calvin</mote>
+            <tipo>Agua Fantasma</tipo>
+            <ps>157</ps>
+            <ataque>61</ataque>
+            <defensa>75</defensa>  
+        </pokemon>
+        <pokemon especie="Jellicent" fecha_captura="2019-01-08T11:15:40.5">
+            <nivel>21</nivel>
+            <mote>Calvon</mote>
+            <tipo>Agua Fantasma</tipo>
+            <ps>73</ps>
+            <ataque>30</ataque>
+            <defensa>34</defensa>        
+        </pokemon>
+        <pokemon especie="Alomomola" fecha_captura="2019-01-09T16:45:30.2">
+            <nivel>8</nivel>
+            <mote>Mazo</mote>
+            <tipo>Agua</tipo>
+            <ps>44</ps>
+            <ataque>17</ataque>
+            <defensa>17</defensa>        
+        </pokemon>
+        <pokemon especie="Joltik" fecha_captura="2019-01-09T17:00:01.2">
+            <nivel>5</nivel>
+            <mote>Garrapata</mote>
+            <tipo>Bicho Eléctrico</tipo>
+            <ps>20</ps>
+            <ataque>10</ataque>
+            <defensa>10</defensa>        
+        </pokemon>
+        <!-- Fin Pokémons de Luis -->
+        <!-- Inicio Pokémons de Juanma -->
+        <pokemon especie="Empoleon" fecha_captura="2019-04-02T10:23:50.0">
+            <nivel>89</nivel>
+            <mote>ErPinguino</mote>
+            <tipo>Agua Acero</tipo>
+            <ps>84</ps>
+            <ataque>86</ataque>
+            <defensa>88</defensa>
+        </pokemon>
+        <pokemon especie="Jirachi" fecha_captura="2019-04-02T12:34:43.0">
+                <nivel>77</nivel>
+                <mote>Jirachi</mote>
+                <tipo>Acero Psíquico</tipo>
+                <ps>100</ps>
+                <ataque>100</ataque>
+                <defensa>100</defensa>
+        </pokemon>
+        <pokemon especie="Cacnea" fecha_captura="2019-04-02T14:23:12.0">
+                <nivel>12</nivel>
+                <mote>Cactu</mote>
+                <tipo>Planta</tipo>
+                <ps>50</ps>
+                <ataque>85</ataque>
+                <defensa>40</defensa>
+        </pokemon>
+        <pokemon especie="Cacturne" fecha_captura="2019-04-02T15:16:32.0">
+                <nivel>21</nivel>
+                <mote>Captus</mote>
+                <tipo>Planta Siniestro</tipo>
+                <ps>70</ps>
+                <ataque>115</ataque>
+                <defensa>60</defensa>
+        </pokemon>
+        <pokemon especie="Swablu" fecha_captura="2019-04-02T16:31:23.0">
+                <nivel>31</nivel>
+                <mote>Blublablu</mote>
+                <tipo>Normal Volador</tipo>
+                <ps>45</ps>
+                <ataque>40</ataque>
+                <defensa>60</defensa>
+        </pokemon>
+        <pokemon especie="Altaria" fecha_captura="2019-04-02T23:44:45.0">
+                <nivel>76</nivel>
+                <mote>Bajaria</mote>
+                <tipo>Dragón Volador</tipo>
+                <ps>75</ps>
+                <ataque>70</ataque>
+                <defensa>90</defensa>
+        </pokemon>
+        <pokemon especie="Zangoose" fecha_captura="2019-04-02T22:12:42.0">
+                <nivel>55</nivel>
+                <mote>Zarpitas</mote>
+                <tipo>Normal</tipo>
+                <ps>73</ps>
+                <ataque>115</ataque>
+                <defensa>60</defensa>
+        </pokemon>
+        <pokemon especie="Seviper" fecha_captura="2019-04-02T00:39:45.0">
+                <nivel>34</nivel>
+                <mote>Seviper</mote>
+                <tipo>Veneno</tipo>
+                <ps>73</ps>
+                <ataque>100</ataque>
+                <defensa>60</defensa>
+        </pokemon>
+        <pokemon especie="Lunatone" fecha_captura="2019-04-02T01:40:45.0">
+                <nivel>45</nivel>
+                <mote>Rocuna</mote>
+                <tipo>Roca Psíquico</tipo>
+                <ps>90</ps>
+                <ataque>55</ataque>
+                <defensa>65</defensa>
+        </pokemon>
+        <pokemon especie="Solrock" fecha_captura="2019-04-02T01:45:41.0">
+                <nivel>54</nivel>
+                <mote>Soledra</mote>
+                <tipo>Roca Psíquico</tipo>
+                <ps>90</ps>
+                <ataque>95</ataque>
+                <defensa>85</defensa>
+        </pokemon>
+        <!-- Fin Pokémons de Juanma-->
+        <!-- Inicio Pokémons de Mario-->
+        <pokemon especie="Snivy" fecha_captura="2018-05-17T18:46:24.7">
+            <nivel>16</nivel>
+            <mote>Matojo</mote>
+            <tipo>Planta</tipo>
+            <ps>45</ps>
+            <ataque>45</ataque>
+            <defensa>55</defensa>
+        </pokemon>
+        <pokemon especie="Servine" fecha_captura="2019-01-22T16:02:01.4">
+            <nivel>31</nivel>
+            <mote>Servilleta</mote>
+            <tipo>Planta</tipo>
+            <ps>60</ps>
+            <ataque>60</ataque>
+            <defensa>75</defensa>
+        </pokemon>
+        <pokemon especie="Serperior" fecha_captura="2017-04-15T16:55:34.8">
+            <nivel>60</nivel>
+            <mote>Serpiente</mote>
+            <tipo>Planta</tipo>
+            <ps>75</ps>
+            <ataque>75</ataque>
+            <defensa>95</defensa>
+            <pokemontura/>
+        </pokemon>
+        <pokemon especie="Tepig" fecha_captura="2018-04-14T10:15:32.2">
+            <nivel>15</nivel>
+            <mote>Gorrino</mote>
+            <tipo>Fuego</tipo>
+            <ps>65</ps>
+            <ataque>63</ataque>
+            <defensa>45</defensa>
+            </pokemon>
+        <pokemon especie="Pignite" fecha_captura="2019-02-08T21:21:20.2">
+            <nivel>30</nivel>
+            <mote>Cerdito</mote>
+            <tipo>Fuego Lucha</tipo>
+            <ps>90</ps>
+            <ataque>93</ataque>
+            <defensa>55</defensa>
+        </pokemon>
+        <pokemon especie="Emboar" fecha_captura="2017-12-21T12:41:17.5">
+            <nivel>80</nivel>
+            <mote>CerditoValiente</mote>
+            <tipo>Fuego Lucha</tipo>
+            <ps>110</ps>
+            <ataque>123</ataque>
+            <defensa>65</defensa>
+            <pokemontura/>
+        </pokemon>
+        <pokemon especie="Oshawott" fecha_captura="2018-11-05T17:02:13.5">
+            <nivel>10</nivel>
+            <mote>Conchita</mote>
+            <tipo>Agua</tipo>
+            <ps>55</ps>
+            <ataque>55</ataque>
+            <defensa>45</defensa>
+        </pokemon>
+        <pokemon especie="Dewott" fecha_captura="2019-03-12T16:20:31.2">
+            <nivel>23</nivel>
+            <mote>Bigotes</mote>
+            <tipo>Agua</tipo>
+            <ps>75</ps>
+            <ataque>75</ataque>
+            <defensa>60</defensa>
+        </pokemon>
+        <pokemon especie="Samurott" fecha_captura="2015-01-22T17:12:26.5">
+            <nivel>46</nivel>
+            <mote>Cornudo</mote>
+            <tipo>Agua</tipo>
+            <ps>95</ps>
+            <ataque>100</ataque>
+            <defensa>85</defensa>
+            <pokemontura/>
+        </pokemon>
+        <pokemon especie="Patrat" fecha_captura="2015-01-27T14:32:21.8">
+            <nivel>18</nivel>
+            <mote>Pesado</mote>
+            <tipo>Normal</tipo>
+            <ps>45</ps>
+            <ataque>55</ataque>
+            <defensa>39</defensa>
+        </pokemon>
+         <!-- Fin Pokémons de Mario-->
+         <!-- Inicio Pokémons de Raúl -->
+            <pokemon especie="Nincada" fecha_captura="2019-04-01T13:37:25.0">
+                <nivel>98</nivel>
+                <mote>Nin</mote>
+                <tipo>Bicho Tierra</tipo>
+                <ps>346</ps>
+                <ataque>276</ataque>
+                <defensa>302</defensa>
+            </pokemon>
+            <pokemon especie="Ninjask" fecha_captura="2019-04-01T13:39:25.0">
+                <nivel>87</nivel>
+                <mote>Mosquito</mote>
+                <tipo>Bicho Volador</tipo>
+                <ps>184</ps>
+                <ataque>139</ataque>
+                <defensa>192</defensa>
+                <pokemontura/>
+            </pokemon>
+                <pokemon especie="Shedinja" fecha_captura="2019-04-01T13:34:25.0">
+                <nivel>94</nivel>
+                <mote>Shed</mote>
+                <tipo>Bicho Fantasma</tipo>
+                <ps>359</ps>
+                <ataque>186</ataque>
+                <defensa>269</defensa>
+                <pokemontura/>
+            </pokemon>
+            <pokemon especie="Whismur" fecha_captura="2019-04-02T01:23:25.0">
+                <nivel>56</nivel>
+                <mote>Peggy</mote>
+                <tipo>Normal</tipo>
+                <ps>284</ps>
+                <ataque>91</ataque>
+                <defensa>134</defensa>
+            </pokemon>
+            <pokemon especie="Loudred" fecha_captura="2019-04-02T01:28:25.0">
+                <nivel>81</nivel>
+                <mote>Devil</mote>
+                <tipo>Normal</tipo>
+                <ps>451</ps>
+                <ataque>233</ataque>
+                <defensa>343</defensa>
+            </pokemon>
+            <pokemon especie="Exploud" fecha_captura="2019-04-02T01:30:25.0">
+                <nivel>79</nivel>
+                <mote>GritoSonico</mote>
+                <tipo>Normal</tipo>
+                <ps>234</ps>
+                <ataque>127</ataque>
+                <defensa>202</defensa>
+            </pokemon>
+            <pokemon especie="Makuhita" fecha_captura="2019-04-02T01:36:25.0">
+                <nivel>39</nivel>
+                <mote>Tyson</mote>
+                <tipo>Lucha</tipo>
+                <ps>186</ps>
+                <ataque>374</ataque>
+                <defensa>261</defensa>
+            </pokemon>
+            <pokemon especie="Hariyama" fecha_captura="2019-04-02T01:38:25.0">
+                <nivel>82</nivel>
+                <mote>JakiChan</mote>
+                <tipo>Lucha</tipo>
+                <ps>391</ps>
+                <ataque>456</ataque>
+                <defensa>274</defensa>
+            </pokemon>
+            <pokemon especie="Azurill" fecha_captura="2019-04-02T01:40:45.0">
+                <nivel>76</nivel>
+                <mote>Puff</mote>
+                <tipo>Normal Hada</tipo>
+                <ps>243</ps>
+                <ataque>183</ataque>
+                <defensa>249</defensa>
+            </pokemon>
+            <pokemon especie="Nosepass" fecha_captura="2019-04-02T01:44:45.0">
+                <nivel>38</nivel>
+                <mote>RocaPingui</mote>
+                <tipo>Roca</tipo>
+                <ps>439</ps>
+                <ataque>163</ataque>
+                <defensa>211</defensa>
+            </pokemon>
+            <!-- Fin Pokémons de Raúl -->
+            <!--Inicio Pokémons María-->
+            <pokemon especie="Jigglypuff" fecha_captura="2018-10-14T05:23:25.0">
+               <nivel>48</nivel>
+               <mote>Algodon_de_Azucar</mote>
+               <tipo>Normal Hada</tipo>
+               <ps>115</ps>
+               <ataque>45</ataque>
+               <defensa>20</defensa>
+            </pokemon>
+            <pokemon especie="Arcanine" fecha_captura="2017-05-14T14:30:25.0">
+               <nivel>65</nivel>
+               <mote>Gatazo</mote>
+               <tipo>Fuego</tipo>
+               <ps>90</ps>
+               <ataque>110</ataque>
+               <defensa>80</defensa>
+            </pokemon>
+            <pokemon especie="Ponyta" fecha_captura="2015-10-20T08:40:25.0">
+               <nivel>12</nivel>
+               <mote>Caballito</mote>
+               <tipo>Fuego</tipo>
+               <ps>50</ps>
+               <ataque>85</ataque>
+               <defensa>55</defensa>
+            </pokemon>
+            <pokemon especie="Haunter" fecha_captura="2004-04-08T18:50:35.0">
+               <nivel>14</nivel>
+               <mote>Fantasma</mote>
+               <tipo>Veneno</tipo>
+               <ps>45</ps>
+               <ataque>50</ataque>
+               <defensa>45</defensa>
+            </pokemon>
+            <pokemon especie="Ho_Oh" fecha_captura="2016-01-15T02:27:26.0">
+               <nivel>89</nivel>
+               <mote>Pajarito</mote>
+               <tipo>Fuego</tipo>
+               <ps>106</ps>
+               <ataque>130</ataque>
+               <defensa>90</defensa>
+            </pokemon>
+            <pokemon especie="Glalie" fecha_captura="1998-05-14T22:23:45.0">
+               <nivel>56</nivel>
+               <mote>Bola_de_Nieve</mote>
+               <tipo>Hielo</tipo>
+               <ps>80</ps>
+               <ataque>80</ataque>
+               <defensa>80</defensa>
+            </pokemon>
+            <pokemon especie="Luxray" fecha_captura="2002-08-30T08:24:55.0">
+               <nivel>30</nivel>
+               <mote>chispitas</mote>
+               <tipo>Eléctrico</tipo>
+               <ps>80</ps>
+               <ataque>120</ataque>
+               <defensa>79</defensa>
+            </pokemon>
+            <pokemon especie="Pyroar" fecha_captura="2014-11-05T05:45:00.0">
+               <nivel>21</nivel>
+               <mote>Leon</mote>
+               <tipo>Fuego</tipo>
+               <ps>86</ps>
+               <ataque>68</ataque>
+               <defensa>72</defensa>
+            </pokemon>
+            <pokemon especie="Pikipek" fecha_captura="2013-07-07T04:45:00.0">
+               <nivel>32</nivel>
+               <mote>Tuki_tuki</mote>
+               <tipo>Normal Volador</tipo>
+               <ps>35</ps>
+               <ataque>75</ataque>
+               <defensa>30</defensa>
+            </pokemon>
+            <pokemon especie="Lycanroc" fecha_captura="2005-02-26T10:52:45.1">
+               <nivel>74</nivel>
+               <mote>Wolf</mote>
+               <tipo>Roca</tipo>
+               <ps>75</ps>
+               <ataque>115</ataque>
+               <defensa>65</defensa>
+            </pokemon>
+            <!-- Fin Pokémons de María -->
+            <!--Inicio Pokemons de Klever-->
+            <pokemon especie="Squirtle" fecha_captura="2019-04-16T00:32:25.0">
+                <nivel>20</nivel>
+                <mote>Squirtle</mote>
+                <tipo>Agua</tipo>
+                <ps>30</ps>
+                <ataque>40</ataque>
+                <defensa>50</defensa>
+            </pokemon>
+            <pokemon especie="Pidgeot" fecha_captura="2019-04-16T00:35:25.0">
+                <nivel>30</nivel>
+                <mote>Pidgeot</mote>
+                <tipo>Volador</tipo>
+                <ps>30</ps>
+                <ataque>40</ataque>
+                <defensa>50</defensa>
+            </pokemon>
+            <pokemon especie="Mankey" fecha_captura="2019-04-16T00:39:25.0">
+                <nivel>20</nivel>
+                <mote>king_mankey</mote>
+                <tipo>Lucha</tipo>
+                <ps>25</ps>
+                <ataque>50</ataque>
+                <defensa>30</defensa>
+            </pokemon>
+            <pokemon especie="Machop" fecha_captura="2019-04-16T00:43:25.0">
+                <nivel>20</nivel>
+                <mote>masho</mote>
+                <tipo>Lucha</tipo>
+                <ps>50</ps>
+                <ataque>60</ataque>
+                <defensa>40</defensa>
+            </pokemon>
+            <pokemon especie="Muk" fecha_captura="2019-04-16T00:47:25.0">
+                <nivel>30</nivel>
+                <mote>Muk</mote>
+                <tipo>Veneno</tipo>
+                <ps>60</ps>
+                <ataque>100</ataque>
+                <defensa>50</defensa>
+                <pokemontura></pokemontura>
+            </pokemon>
+            <pokemon especie="Hitmonchan" fecha_captura="2019-04-16T00:48:25.0">
+                <nivel>50</nivel>
+                <mote>tochoman</mote>
+                <tipo>Lucha</tipo>
+                <ps>50</ps>
+                <ataque>100</ataque>
+                <defensa>60</defensa>
+            </pokemon>
+            <pokemon especie="Crobat" fecha_captura="2019-04-16T00:51:25.0">
+                <nivel>20</nivel>
+                <mote>murci</mote>
+                <tipo>Veneno</tipo>
+                <ps>50</ps>
+                <ataque>70</ataque>
+                <defensa>50</defensa>
+            </pokemon>
+            <pokemon especie="Wurmple" fecha_captura="2019-04-16T00:57:25.0">
+                <nivel>20</nivel>
+                <mote>Wurmple</mote>
+                <tipo>Bicho</tipo>
+                <ps>30</ps>
+                <ataque>40</ataque>
+                <defensa>20</defensa>
+            </pokemon>
+            <pokemon especie="roselia" fecha_captura="2019-04-16T01:00:25.0">
+                <nivel>20</nivel>
+                <mote>roselia</mote>
+                <tipo>Veneno</tipo>
+                <ps>30</ps>
+                <ataque>60</ataque>
+                <defensa>30</defensa>
+            </pokemon>
+            <pokemon especie="herdier" fecha_captura="2019-04-16T00:32:25.0">
+                <nivel>20</nivel>
+                <mote>heidi</mote>
+                <tipo>Normal</tipo>
+                <ps>45</ps>
+                <ataque>50</ataque>
+                <defensa>45</defensa>
+            </pokemon>
+            <!--fin Pokemons de Klever-->
+            <!--Inicio Pokemons de Álvaro-->
+            <pokemon especie="Ninetales" fecha_captura="2015-08-22T23:04:22.4">
+                <nivel>66</nivel>
+                <mote>Colitas</mote>
+                <tipo>Fuego</tipo>
+                <ps>160</ps>
+                <ataque>140</ataque>
+                <defensa>120</defensa>
+            </pokemon>
+            <pokemon especie="Alakazam" fecha_captura="2013-06-27T04:10:30.2">
+                <nivel>78</nivel>
+                <mote>ElCucharas</mote>
+                <tipo>Psíquico</tipo>
+                <ps>197</ps>
+                <ataque>107</ataque>
+                <defensa>99</defensa>
+            </pokemon>
+            <pokemon especie="Raikou" fecha_captura="2010-04-03T09:20:17.9">
+                <nivel>34</nivel>
+                <mote>Sarpitas</mote>
+                <tipo>Eléctrico</tipo>
+                <ps>115</ps>
+                <ataque>80</ataque>
+                <defensa>66</defensa>
+            </pokemon>
+            <pokemon especie="Suicune" fecha_captura="2011-02-01T06:13:01.7">
+                <nivel>45</nivel>
+                <mote>Melenas</mote>
+                <tipo>Agua</tipo>
+                <ps>158</ps>
+                <ataque>86</ataque>
+                <defensa>134</defensa>
+            </pokemon>
+            <pokemon especie="Sceptile" fecha_captura="2006-11-01T12:13:14.5">
+                <nivel>28</nivel>
+                <mote>Escoba</mote>
+                <tipo>Planta</tipo>
+                <ps>85</ps>
+                <ataque>66</ataque>
+                <defensa>50</defensa>
+            </pokemon>
+            <pokemon especie="Absol" fecha_captura="2007-09-01T03:22:28.3">
+                <nivel>66</nivel>
+                <mote>Lobete</mote>
+                <tipo>Siniestro</tipo>
+                <ps>182</ps>
+                <ataque>216</ataque>
+                <defensa>104</defensa>
+            </pokemon>
+            <pokemon especie="Groudon" fecha_captura="2018-07-01T12:10:05.1">
+                <nivel>87</nivel>
+                <mote>Gordete</mote>
+                <tipo>Tierra</tipo>
+                <ps>297</ps>
+                <ataque>292</ataque>
+                <defensa>275</defensa>
+            </pokemon>
+            <pokemon especie="Rayquaza" fecha_captura="2012-05-01T11:20:30.8">
+                <nivel>99</nivel>
+                <mote>Dios</mote>
+                <tipo>Dragón Volador</tipo>
+                <ps>347</ps>
+                <ataque>332</ataque>
+                <defensa>213</defensa>
+            </pokemon>
+            <pokemon especie="Yveltal" fecha_captura="2011-03-01T04:23:34.6">
+                <nivel>89</nivel>
+                <mote>Y</mote>
+                <tipo>Siniestro Volador</tipo>
+                <ps>350</ps>
+                <ataque>265</ataque>
+                <defensa>201</defensa>
+            </pokemon>
+            <pokemon especie="Rowlet" fecha_captura="2009-01-01T10:13:16.4">
+                <nivel>5</nivel>
+                <mote>Cute</mote>
+                <tipo>Planta Volador</tipo>
+                <ps>23</ps>
+                <ataque>12</ataque>
+                <defensa>12</defensa>
+            </pokemon>
+            <!--Fin Pokemons de Álvaro-->
+            <!-- Inicio Pokémons de Asdrúbal -->
+            <pokemon especie="Guzzlord" fecha_captura="2019-04-01T13:37:25.0">
+                <nivel>94</nivel>
+                <mote>Guzz</mote>
+                <tipo>Siniestro Dragón</tipo>
+                <ps>425</ps>
+                <ataque>324</ataque>
+                <defensa>334</defensa>
+            </pokemon>
+            <pokemon especie="Necrozma" fecha_captura="2019-04-01T13:19:25.0">
+                <nivel>83</nivel>
+                <mote>Nec</mote>
+                <tipo>Psíquico</tipo>
+                <ps>181</ps>
+                <ataque>301</ataque>
+                <defensa>402</defensa>
+            </pokemon>
+            <pokemon especie="Magearna" fecha_captura="2019-04-01T13:34:25.0">
+                <nivel>69</nivel>
+                <mote>Plati</mote>
+                <tipo>Acero Hada</tipo>
+                <ps>403</ps>
+                <ataque>236</ataque>
+                <defensa>242</defensa>
+            </pokemon>
+            <pokemon especie="Marshadow" fecha_captura="2019-04-02T01:23:25.0">
+                <nivel>73</nivel>
+                <mote>Tiniebla</mote>
+                <tipo>Lucha Fantasma</tipo>
+                <ps>364</ps>
+                <ataque>381</ataque>
+                <defensa>434</defensa>
+            </pokemon>
+            <pokemon especie="Poipole" fecha_captura="2019-04-02T01:48:25.0">
+                <nivel>37</nivel>
+                <mote>Cebollita</mote>
+                <tipo>Veneno</tipo>
+                <ps>209</ps>
+                <ataque>303</ataque>
+                <defensa>348</defensa>
+            </pokemon>
+            <pokemon especie="Naganadel" fecha_captura="2019-04-02T01:30:25.0">
+                <nivel>71</nivel>
+                <mote>Agoyon</mote>
+                <tipo>Veneno Dragón</tipo>
+                <ps>294</ps>
+                <ataque>267</ataque>
+                <defensa>242</defensa>
+                <pokemontura/>
+            </pokemon>
+            <pokemon especie="Stakataka" fecha_captura="2019-04-02T01:36:25.0">
+                <nivel>39</nivel>
+                <mote>TorreAndante</mote>
+                <tipo>Roca Acero</tipo>
+                <ps>534</ps>
+                <ataque>194</ataque>
+                <defensa>261</defensa>
+            </pokemon>
+            <pokemon especie="Meltan" fecha_captura="2019-04-02T01:28:25.0">
+                <nivel>67</nivel>
+                <mote>Tuerca</mote>
+                <tipo>Acero</tipo>
+                <ps>461</ps>
+                <ataque>206</ataque>
+                <defensa>274</defensa>
+            </pokemon>
+            <pokemon especie="Blacephalon" fecha_captura="2019-04-02T01:40:45.0">
+                <nivel>59</nivel>
+                <mote>Flori</mote>
+                <tipo>Fuego Fantasma</tipo>
+                <ps>186</ps>
+                <ataque>296</ataque>
+                <defensa>243</defensa>
+            </pokemon>
+            <pokemon especie="Zeraora" fecha_captura="2019-04-02T01:44:45.0">
+                <nivel>53</nivel>
+                <mote>Zera</mote>
+                <tipo>Eléctrico</tipo>
+                <ps>269</ps>
+                <ataque>343</ataque>
+                <defensa>311</defensa>
+            </pokemon>
+            <!-- Fin Pokémons de Asdrúbal -->
+            <!-- Inicio Pokémons de Román -->
+        <pokemon especie="Aerodactyl" fecha_captura="2019-04-06T13:36:25.0">
+            <nivel>80</nivel>
+            <mote>Dinosaurio</mote>
+            <tipo>Roca Volador</tipo>
+            <ps>218</ps>
+            <ataque>173</ataque>
+            <defensa>109</defensa>
+        </pokemon>
+        <pokemon especie="Snorlax" fecha_captura="2019-04-05T13:40:25.0">
+            <nivel>90</nivel>
+            <mote>Gordito</mote>
+            <tipo>Normal</tipo>
+            <ps>388</ps>
+            <ataque>203</ataque>
+            <defensa>122</defensa>
+            <pokemontura/>
+        </pokemon>
+        <pokemon especie="Articuno" fecha_captura="2019-04-07T13:46:25.0">
+            <nivel>95</nivel>
+            <mote>Helado</mote>
+            <tipo>Hielo Volador</tipo>
+            <ps>276</ps>
+            <ataque>166</ataque>
+            <defensa>195</defensa>
+        </pokemon>
+        <pokemon especie="Zapdos" fecha_captura="2019-04-08T01:23:25.0">
+            <nivel>95</nivel>
+            <mote>Rayito</mote>
+            <tipo>Eléctrico Volador</tipo>
+            <ps>276</ps>
+            <ataque>176</ataque>
+            <defensa>166</defensa>
+        </pokemon>
+        <pokemon especie="Moltres" fecha_captura="2019-04-09T01:28:25.0">
+            <nivel>95</nivel>
+            <mote>Llamitas</mote>
+            <tipo>Fuego Volador</tipo>
+            <ps>276</ps>
+            <ataque>195</ataque>
+            <defensa>176</defensa>
+        </pokemon>
+        <pokemon especie="Dratini" fecha_captura="2019-04-12T01:30:25.0">
+            <nivel>50</nivel>
+            <mote>MiniDragon</mote>
+            <tipo>Dragón</tipo>
+            <ps>101</ps>
+            <ataque>69</ataque>
+            <defensa>50</defensa>
+        </pokemon>
+        <pokemon especie="Dragonair" fecha_captura="2019-04-11T01:36:25.0">
+            <nivel>70</nivel>
+            <mote>Culebrilla</mote>
+            <tipo>Dragón</tipo>
+            <ps>165</ps>
+            <ataque>122</ataque>
+            <defensa>96</defensa>
+        </pokemon>
+        <pokemon especie="Dragonite" fecha_captura="2019-04-10T01:38:25.0">
+            <nivel>90</nivel>
+            <mote>Cartero</mote>
+            <tipo>Dragón Volador</tipo>
+            <ps>263</ps>
+            <ataque>246</ataque>
+            <defensa>176</defensa>
+        </pokemon>
+        <pokemon especie="Mew" fecha_captura="2019-04-19T01:40:45.0">
+            <nivel>100</nivel>
+            <mote>Mewtico</mote>
+            <tipo>Psíquico</tipo>
+            <ps>310</ps>
+            <ataque>205</ataque>
+            <defensa>205</defensa>
+        </pokemon>
+        <pokemon especie="Mewtwo" fecha_captura="2019-04-20T01:44:45.0">
+            <nivel>100</nivel>
+            <mote>Clon</mote>
+            <tipo>Psíquico</tipo>
+            <ps>322</ps>
+            <ataque>225</ataque>
+            <defensa>285</defensa>
+        </pokemon>
+        <!-- Fin Pokémons de Román-->
+        <!-- Inicio Pokémons de Jorge-->
+        <pokemon especie="Charmander" fecha_captura="2019-04-19T11:27:31.8">
+            <nivel>14</nivel>
+            <mote>Llamita</mote>
+            <tipo>Fuego</tipo>
+            <ps>38</ps>
+            <ataque>14</ataque>
+            <defensa>16</defensa>
+        </pokemon>
+        <pokemon especie="Lapras" fecha_captura="2019-04-19T11:28:31.8">
+            <nivel>18</nivel>
+            <mote>Barquito</mote>
+            <tipo>Agua Hielo</tipo>
+            <ps>57</ps>
+            <ataque>22</ataque>
+            <defensa>30</defensa>
+            <pokemontura/>
+        </pokemon>
+        <pokemon especie="Totodile" fecha_captura="2019-04-19T11:29:31.8">
+            <nivel>18</nivel>
+            <mote>Dentado</mote>
+            <tipo>Agua</tipo>
+            <ps>50</ps>
+            <ataque>34</ataque>
+            <defensa>38</defensa>
+        </pokemon>
+        <pokemon especie="Metagross" fecha_captura="2019-04-19T11:30:31.8">
+            <nivel>1</nivel>
+            <mote>Leviton</mote>
+            <tipo>Acero Psíquico</tipo>
+            <ps>80</ps>
+            <ataque>135</ataque>
+            <defensa>130</defensa>
+            <pokemontura/>
+        </pokemon>
+        <pokemon especie="Infernape" fecha_captura="2019-04-19T11:31:31.8">
+            <nivel>36</nivel>
+            <mote>Chan</mote>
+            <tipo>Fuego Lucha</tipo>
+            <ps>104</ps>
+            <ataque>74</ataque>
+            <defensa>71</defensa>
+        </pokemon>
+        <pokemon especie="Shinx" fecha_captura="2019-04-19T11:32:31.8">
+            <nivel>50</nivel>
+            <mote>Colmillos</mote>
+            <tipo>Eléctrico</tipo>
+            <ps>65</ps>
+            <ataque>45</ataque>
+            <defensa>34</defensa>
+        </pokemon>
+        <pokemon especie="Rampardos" fecha_captura="2019-04-19T11:33:31.8">
+            <nivel>38</nivel>
+            <mote>Dino</mote>
+            <tipo>Roca</tipo>
+            <ps>165</ps>
+            <ataque>97</ataque>
+            <defensa>60</defensa>
+            <pokemontura/>
+        </pokemon>
+        <pokemon especie="Gible" fecha_captura="2019-04-19T11:34:31.8">
+            <nivel>22</nivel>
+            <mote>Bocon</mote>
+            <tipo>Dragón</tipo>
+            <ps>70</ps>
+            <ataque>40</ataque>
+            <defensa>52</defensa>
+        </pokemon>
+        <pokemon especie="Riolu" fecha_captura="2019-04-19T11:35:31.8">
+            <nivel>10</nivel>
+            <mote>Palmitas</mote>
+            <tipo>Lucha</tipo>
+            <ps>70</ps>
+            <ataque>40</ataque>
+            <defensa>60</defensa>
+        </pokemon>
+        <pokemon especie="Skorupi" fecha_captura="2019-04-19T11:36:31.8">
+            <nivel>18</nivel>
+            <mote>Escorpi</mote>
+            <tipo>Veneno Bicho</tipo>
+            <ps>50</ps>
+            <ataque>40</ataque>
+            <defensa>90</defensa>
+        </pokemon>
+        <!-- Fin Pokémons de Jorge-->
+        <!-- Inicio Pokémons de Moisés -->
+        <pokemon especie="Growlithe" fecha_captura="2019-03-21T16:05:12.0">
+            <nivel>60</nivel>
+            <mote>Simba</mote>
+            <tipo>Fuego</tipo>
+            <ps>55</ps>
+            <ataque>60</ataque>
+            <defensa>40</defensa>
+        </pokemon>
+        <pokemon especie="Machamp" fecha_captura="2018-04-21T16:02:00.0">
+            <nivel>35</nivel>
+            <mote>Rambo</mote>
+            <tipo>Lucha</tipo>
+            <ps>80</ps>
+            <ataque>120</ataque>
+            <defensa>65</defensa>
+        </pokemon>
+        <pokemon especie="Golem" fecha_captura="2018-06-01T13:02:00.0">
+            <nivel>60</nivel>
+            <mote>Bolt</mote>
+            <tipo>Roca</tipo>
+            <ps>60</ps>
+            <ataque>70</ataque>
+            <defensa>50</defensa>
+            <pokemontura/>
+        </pokemon>
+        <pokemon especie="Rapidash" fecha_captura="2017-07-20T19:02:12.5">
+            <nivel>90</nivel>
+            <mote>Tornado</mote>
+            <tipo>Fuego</tipo>
+            <ps>65</ps>
+            <ataque>100</ataque>
+            <defensa>70</defensa>
+            <pokemontura/>
+        </pokemon>
+        <pokemon especie="Pichu" fecha_captura="2018-01-07T13:08:00.0">
+            <nivel>30</nivel>
+            <mote>Thor</mote>
+            <tipo>Eléctrico</tipo>
+            <ps>15</ps>
+            <ataque>30</ataque>
+            <defensa>10</defensa>
+        </pokemon>
+        <pokemon especie="Vulpix" fecha_captura="2017-01-21T16:02:00.0">
+            <nivel>40</nivel>
+            <mote>Hina</mote>
+            <tipo>Fuego</tipo>
+            <ps>38</ps>
+            <ataque>41</ataque>
+            <defensa>40</defensa>
+        </pokemon>
+        <pokemon especie="Blaziken" fecha_captura="2017-01-21T16:02:00.0">
+            <nivel>60</nivel>
+            <mote>Rocky</mote>
+            <tipo>Lucha</tipo>
+            <ps>70</ps>
+            <ataque>110</ataque>
+            <defensa>60</defensa>
+        </pokemon>
+        <pokemon especie="Wailord" fecha_captura="2017-08-07T14:15:12.0">
+            <nivel>100</nivel>
+            <mote>Wally</mote>
+            <tipo>Agua</tipo>
+            <ps>170</ps>
+            <ataque>90</ataque>
+            <defensa>45</defensa>
+            <pokemontura/>
+        </pokemon>
+        <pokemon especie="Zebstrika" fecha_captura="2018-12-21T19:28:00.0">
+            <nivel>68</nivel>
+            <mote>Tormenta</mote>
+            <tipo>Eléctrico</tipo>
+            <ps>65</ps>
+            <ataque>85</ataque>
+            <defensa>56</defensa>
+            <pokemontura/>
+        </pokemon>
+        <pokemon especie="Greninja" fecha_captura="2017-10-21T23:02:00.0">
+            <nivel>80</nivel>
+            <mote>Sombra</mote>
+            <tipo>Siniestro</tipo>
+            <ps>68</ps>
+            <ataque>86</ataque>
+            <defensa>59</defensa>
+        </pokemon>
+        <!-- Fin Pokémons de Moisés -->
+        <!-- Inicio Pokémons de Carlos -->
+        <pokemon especie="Charmeleon" fecha_captura="2016-05-17T18:46:24.7">
+            <nivel>60</nivel>
+            <mote>Llamitas</mote>
+            <tipo>Fuego</tipo>
+            <ps>40</ps>
+            <ataque>50</ataque>
+            <defensa>60</defensa>
+        </pokemon>
+        <pokemon especie="Pidgeotto" fecha_captura="2015-01-22T16:02:01.4">
+            <nivel>90</nivel>
+            <mote>Palomo</mote>
+            <tipo>Normal Volador</tipo>
+            <ps>55</ps>
+            <ataque>30</ataque>
+            <defensa>20</defensa>
+        </pokemon>
+        <pokemon especie="Rattata" fecha_captura="2010-04-15T16:55:34.8">
+            <nivel>74</nivel>
+            <mote>Puigdemont</mote>
+            <tipo>Normal</tipo>
+            <ps>61</ps>
+            <ataque>100</ataque>
+            <defensa>40</defensa>
+        </pokemon>
+        <pokemon especie="Girafarig" fecha_captura="2010-04-14T10:15:32.2">
+            <nivel>80</nivel>
+            <mote>Adri</mote>
+            <tipo>Normal Psíquico</tipo>
+            <ps>90</ps>
+            <ataque>110</ataque>
+            <defensa>120</defensa>
+            <pokemontura/>
+        </pokemon>
+        <pokemon especie="Steelix" fecha_captura="2006-06-08T21:21:20.2">
+            <nivel>50</nivel>
+            <mote>Steelix</mote>
+            <tipo>Acero Tierra</tipo>
+            <ps>70</ps>
+            <ataque>118</ataque>
+            <defensa>140</defensa>
+        </pokemon>
+        <pokemon especie="Pelipper" fecha_captura="2015-12-21T12:41:17.5">
+            <nivel>50</nivel>
+            <mote>Saltamontes</mote>
+            <tipo> Volador Agua</tipo>
+            <ps>80</ps>
+            <ataque>127</ataque>
+            <defensa>94</defensa>
+        </pokemon>
+        <pokemon especie="Latias" fecha_captura="2017-11-25T17:02:13.5">
+            <nivel>80</nivel>
+            <mote>Drake</mote>
+            <tipo>Dragón Psíquico</tipo>
+            <ps>50</ps>
+            <ataque>57</ataque>
+            <defensa>60</defensa>
+            <pokemontura/>
+        </pokemon>
+        <pokemon especie="Landorus" fecha_captura="2015-08-12T16:20:31.2">
+            <nivel>48</nivel>
+            <mote>Landorus</mote>
+            <tipo>Volador Tierra</tipo>
+            <ps>54</ps>
+            <ataque>18</ataque>
+            <defensa>25</defensa>
+        </pokemon>
+        <pokemon especie="Tyrantrum" fecha_captura="2015-01-22T17:12:26.5">
+            <nivel>70</nivel>
+            <mote>Fichas</mote>
+            <tipo>Dragón Roca</tipo>
+            <ps>24</ps>
+            <ataque>45</ataque>
+            <defensa>78</defensa>
+        </pokemon>
+        <pokemon especie="Buzzwole" fecha_captura="2015-01-27T14:32:21.8">
+            <nivel>20</nivel>
+            <mote>Hamburuer</mote>
+            <tipo>Bicho Lucha</tipo>
+            <ps>10</ps>
+            <ataque>25</ataque>
+            <defensa>30</defensa>
+        </pokemon>
+        <!-- Fin Pokémons de Carlos -->
+        <!-- Inicio Pokémons de Daniel Ayllón -->
+        <pokemon especie="Gengar" fecha_captura="2008-02-14T09:30:00.0">
+            <nivel>20</nivel>
+            <mote>Gengorio</mote>
+            <tipo>Fantasma Veneno</tipo>
+            <ps>60</ps>
+            <ataque>40</ataque>
+            <defensa>35</defensa>
+            <pokemontura/>
+        </pokemon>
+        <pokemon especie="Onix" fecha_captura="2010-01-01T09:00:00.0">
+            <nivel>35</nivel>
+            <mote>Onix</mote>
+            <tipo>Roca Tierra</tipo>
+            <ps>80</ps>
+            <ataque>51</ataque>
+            <defensa>127</defensa>
+        </pokemon>
+        <pokemon especie="Drowzee" fecha_captura="2010-01-01T09:00:00.0">
+            <nivel>2</nivel>
+            <mote>Drowzee</mote>
+            <tipo>Psíquico</tipo>
+            <ps>15</ps>
+            <ataque>10</ataque>
+            <defensa>10</defensa>
+        </pokemon>
+        <pokemon especie="Hypno" fecha_captura="2012-12-20T10:45:01.0">
+            <nivel>8</nivel>
+            <mote>Himno</mote>
+            <tipo>Psíquico</tipo>
+            <ps>34</ps>
+            <ataque>20</ataque>
+            <defensa>18</defensa>
+            <pokemontura/>
+        </pokemon>
+        <pokemon especie="Krabby" fecha_captura="2002-12-25T09:00:00.0">
+            <nivel>60</nivel>
+            <mote>ElCangre</mote>
+            <tipo>Agua</tipo>
+            <ps>124</ps>
+            <ataque>163</ataque>
+            <defensa>131</defensa>
+        </pokemon>
+        <pokemon especie="Kingler" fecha_captura="2017-01-01T12:00:00.0">
+            <nivel>12</nivel>
+            <mote>ElHermanoDelCangre</mote>
+            <tipo>Agua</tipo>
+            <ps>38</ps>
+            <ataque>42</ataque>
+            <defensa>36</defensa>
+        </pokemon>
+        <pokemon especie="Voltorb" fecha_captura="2017-11-01T12:00:00.0">
+            <nivel>50</nivel>
+            <mote>LaPokeball</mote>
+            <tipo>Eléctrico</tipo>
+            <ps>115</ps>
+            <ataque>55</ataque>
+            <defensa>70</defensa>
+        </pokemon>
+        <pokemon especie="Electrode" fecha_captura="2017-11-21T16:30:45.6">
+            <nivel>90</nivel>
+            <mote>Electron</mote>
+            <tipo>Eléctrico</tipo>
+            <ps>235</ps>
+            <ataque>134</ataque>
+            <defensa>158</defensa>
+        </pokemon>
+        <pokemon especie="Exeggcute" fecha_captura="2017-11-21T06:30:45.6">
+            <nivel>99</nivel>
+            <mote>TortillaDePatata</mote>
+            <tipo>Planta Psíquico</tipo>
+            <ps>258</ps>
+            <ataque>125</ataque>
+            <defensa>194</defensa>
+        </pokemon>
+        <pokemon especie="Exeggutor" fecha_captura="2015-01-27T14:32:21.8">
+            <nivel>36</nivel>
+            <mote>Palmerin</mote>
+            <tipo>Planta Psíquico</tipo>
+            <ps>258</ps>
+            <ataque>125</ataque>
+            <defensa>77</defensa>
+        </pokemon>
+        <!-- Fin Pokémons de Daniel Ayllón -->
+        <!-- Inicio Pokémons de Denis -->
+        <pokemon especie="Sudowoodo" fecha_captura="2012-08-04T12:51:25.0">
+            <nivel>68</nivel>
+            <mote>Lukaku</mote>
+            <tipo>Roca</tipo>
+            <ps>65</ps>
+            <ataque>49</ataque>
+            <defensa>111</defensa>
+        </pokemon>
+        <pokemon especie="Politoed" fecha_captura="2015-05-21T04:33:02.0">
+            <nivel>84</nivel>
+            <mote>Jhaba</mote>
+            <tipo>Agua</tipo>
+            <ps>53</ps>
+            <ataque>92</ataque>
+            <defensa>15</defensa>
+        </pokemon>
+        <pokemon especie="Hoppip" fecha_captura="2007-07-07T22:31:56.0">
+            <nivel>37</nivel>
+            <mote>Repa</mote>
+            <tipo>Planta Volador</tipo>
+            <ps>22</ps>
+            <ataque>11</ataque>
+            <defensa>71</defensa>
+        </pokemon>
+        <pokemon especie="Skiploom" fecha_captura="2009-07-12T06:15:48.0">
+            <nivel>82</nivel>
+            <mote>Slon</mote>
+            <tipo>Planta Volador</tipo>
+            <ps>25</ps>
+            <ataque>18</ataque>
+            <defensa>14</defensa>
+        </pokemon>
+        <pokemon especie="Jumpluff" fecha_captura="2013-05-01T18:41:14.0">
+            <nivel>20</nivel>
+            <mote>Malacaton</mote>
+            <tipo>Planta Volador</tipo>
+            <ps>15</ps>
+            <ataque>21</ataque>
+            <defensa>13</defensa>
+        </pokemon>
+        <pokemon especie="Aipom" fecha_captura="2014-07-14T15:04:33.0">
+            <nivel>83</nivel>
+            <mote>Maimun</mote>
+            <tipo>Normal</tipo>
+            <ps>49</ps>
+            <ataque>36</ataque>
+            <defensa>28</defensa>
+        </pokemon>
+        <pokemon especie="Sunkern" fecha_captura="2015-09-06T17:22:45.0">
+            <nivel>34</nivel>
+            <mote>Atanas</mote>
+            <tipo>Planta</tipo>
+            <ps>30</ps>
+            <ataque>34</ataque>
+            <defensa>64</defensa>
+        </pokemon>
+        <pokemon especie="Sunflora" fecha_captura="2016-06-21T09:13:33.0">
+            <nivel>46</nivel>
+            <mote>Slancho</mote>
+            <tipo>Planta</tipo>
+            <ps>24</ps>
+            <ataque>65</ataque>
+            <defensa>54</defensa>
+        </pokemon>
+        <pokemon especie="Yanma" fecha_captura="2018-08-06T13:42:54.0">
+            <nivel>93</nivel>
+            <mote>Komar</mote>
+            <tipo>Bicho Volador</tipo>
+            <ps>82</ps>
+            <ataque>96</ataque>
+            <defensa>42</defensa>
+            <pokemontura/>
+        </pokemon>
+        <pokemon especie="Wooper" fecha_captura="2019-01-04T11:05:35.0">
+            <nivel>78</nivel>
+            <mote>Burger</mote>
+            <tipo>Agua Tierra</tipo>
+            <ps>54</ps>
+            <ataque>12</ataque>
+            <defensa>24</defensa>
+        </pokemon>
+      <!-- Fin Pokémons de Denis -->
+      <!-- Inicio Pokémons de Ruben -->
+        <pokemon especie="Zubat" fecha_captura="2019-04-16T15:56:26.1">
+            <nivel>10</nivel>
+            <mote>Murciegalo</mote>
+            <tipo>Veneno</tipo>
+            <ps>32</ps>
+            <ataque>19</ataque>
+            <defensa>17</defensa>
+            <pokemontura/>
+        </pokemon>
+        <pokemon especie="Golbat" fecha_captura="2019-04-16T15:58:46.1">
+            <nivel>25</nivel>
+            <mote>Batman</mote>
+            <tipo>Veneno</tipo>
+            <ps>58</ps>
+            <ataque>32</ataque>
+            <defensa>29</defensa>
+            <pokemontura/>
+        </pokemon>
+        <pokemon especie="Oddish" fecha_captura="2019-04-16T11:01:32.3">
+            <nivel>19</nivel>
+            <mote>Hierbajo</mote>
+            <tipo>Veneno</tipo>
+            <ps>42</ps>
+            <ataque>35</ataque>
+            <defensa>29</defensa>
+        </pokemon>
+        <pokemon especie="Gloom" fecha_captura="2019-04-16T15:01:32.3">
+            <nivel>21</nivel>
+            <mote>Babas</mote>
+            <tipo>Veneno</tipo>
+            <ps>47</ps>
+            <ataque>39</ataque>
+            <defensa>33</defensa>
+        </pokemon>
+        <pokemon especie="Vileplume" fecha_captura="2019-04-16T17:10:19.3">
+            <nivel>45</nivel>
+            <mote>Romero</mote>
+            <tipo>Veneno</tipo>
+            <ps>80</ps>
+            <ataque>69</ataque>
+            <defensa>76</defensa>
+        </pokemon>
+        <pokemon especie="Paras" fecha_captura="2019-04-16T17:12:39.3">
+            <nivel>18</nivel>
+            <mote>Setero</mote>
+            <tipo>Planta</tipo>
+            <ps>50</ps>
+            <ataque>35</ataque>
+            <defensa>31</defensa>
+        </pokemon>
+        <pokemon especie="Parasect" fecha_captura="2019-04-16T17:55:20.3">
+            <nivel>38</nivel>
+            <mote>Fabricio</mote>
+            <tipo>Planta</tipo>
+            <ps>89</ps>
+            <ataque>65</ataque>
+            <defensa>72</defensa>
+        </pokemon>
+        <pokemon especie="Venonat" fecha_captura="2019-04-16T18:01:32.3">
+            <nivel>21</nivel>
+            <mote>Neonat</mote>
+            <tipo>Veneno</tipo>
+            <ps>45</ps>
+            <ataque>30</ataque>
+            <defensa>21</defensa>
+        </pokemon>
+        <pokemon especie="Venomoth" fecha_captura="2019-04-16T18:08:08.1">
+            <nivel>52</nivel>
+            <mote>Polish</mote>
+            <tipo>Veneno</tipo>
+            <ps>109</ps>
+            <ataque>84</ataque>
+            <defensa>81</defensa>
+            <pokemontura/>
+        </pokemon>
+        <pokemon especie="Diglett" fecha_captura="2019-04-16T18:09:54.3">
+            <nivel>12</nivel>
+            <mote>Cieguito</mote>
+            <tipo>Tierra</tipo>
+            <ps>27</ps>
+            <ataque>19</ataque>
+            <defensa>18</defensa>
+        </pokemon>
+        <!-- Fin Pokémons de Ruben -->
+        <!-- Inicio Pokémons de Adrián Ochando -->
+        <pokemon especie="Psyduck" fecha_captura="2019-04-06T13:36:25.0">
+            <nivel>100</nivel>
+            <mote>Patito_Feo</mote>
+            <tipo>Agua</tipo>
+            <ps>250</ps>
+            <ataque>150</ataque>
+            <defensa>271</defensa>
+        </pokemon>
+        <pokemon especie="Electabuzz" fecha_captura="2019-04-06T13:40:25.0">
+            <nivel>79</nivel>
+            <mote>Chispitas</mote>
+            <tipo>Eléctrico</tipo>
+            <ps>270</ps>
+            <ataque>110</ataque>
+            <defensa>140</defensa>
+        </pokemon>
+        <pokemon especie="Magmar" fecha_captura="2019-04-05T13:46:25.0">
+            <nivel>75</nivel>
+            <mote>El_fogoso</mote>
+            <tipo>Fuego</tipo>
+            <ps>292</ps>
+            <ataque>200</ataque>
+            <defensa>229</defensa>
+        </pokemon>
+        <pokemon especie="Ampharos" fecha_captura="2019-04-01T01:23:25.0">
+            <nivel>47</nivel>
+            <mote>Amparo_Cuevas</mote>
+            <tipo>Eléctrico</tipo>
+            <ps>290</ps>
+            <ataque>500</ataque>
+            <defensa>140</defensa>
+        </pokemon>
+        <pokemon especie="Heracross" fecha_captura="2019-04-03T01:28:25.0">
+            <nivel>99</nivel>
+            <mote>Cucharacha</mote>
+            <tipo>Bicho Lucha</tipo>
+            <ps>349</ps>
+            <ataque>213</ataque>
+            <defensa>293</defensa>
+        </pokemon>
+        <pokemon especie="Skarmory" fecha_captura="2019-04-11T01:30:25.0">
+            <nivel>69</nivel>
+            <mote>Oxidao</mote>
+            <tipo>Acero Volador</tipo>
+            <ps>210</ps>
+            <ataque>86</ataque>
+            <defensa>180</defensa>
+            <pokemontura/>
+        </pokemon>
+        <pokemon especie="Poochyena" fecha_captura="2019-04-13T01:36:25.0">
+            <nivel>15</nivel>
+            <mote>Marlos</mote>
+            <tipo>Siniestro</tipo>
+            <ps>85</ps>
+            <ataque>74</ataque>
+            <defensa>61</defensa>
+        </pokemon>
+        <pokemon especie="Electrike" fecha_captura="2019-04-14T01:38:25.0">
+            <nivel>19</nivel>
+            <mote>Vatios</mote>
+            <tipo>Eléctrico</tipo>
+            <ps>300</ps>
+            <ataque>356</ataque>
+            <defensa>256</defensa>
+        </pokemon>
+        <pokemon especie="Manectric" fecha_captura="2019-04-16T01:40:45.0">
+            <nivel>100</nivel>
+            <mote>ElectricMARLOS</mote>
+            <tipo>Eléctrico</tipo>
+            <ps>500</ps>
+            <ataque>350</ataque>
+            <defensa>400</defensa>
+            <pokemontura/>
+        </pokemon>
+        <pokemon especie="Salamence" fecha_captura="2019-04-15T01:44:45.0">
+            <nivel>89</nivel>
+            <mote>Desdentao</mote>
+            <tipo>Dragón Volador</tipo>
+            <ps>900</ps>
+            <ataque>150</ataque>
+            <defensa>200</defensa>
+            <pokemontura/>
+        </pokemon>
+        <!-- Fin Pokémons de Adrián Ochando -->
+        <!-- Pokemons Gabriel Revilla -->
+        <pokemon especie="Raichu" fecha_captura="2019-04-14T01:42:42.0">
+            <nivel>74</nivel>
+            <mote>Rata</mote>
+            <tipo>Eléctrico</tipo>
+            <ps>679</ps>
+            <ataque>125</ataque>
+            <defensa>212</defensa>
+        </pokemon>
+        <pokemon especie="Entei" fecha_captura="2019-04-12T02:44:45.0">
+            <nivel>98</nivel>
+            <mote>Perrito</mote>
+            <tipo>Fuego</tipo>
+            <ps>1500</ps>
+            <ataque>250</ataque>
+            <defensa>300</defensa>
+            <pokemontura/>
+        </pokemon>
+        <pokemon especie="Torchic" fecha_captura="2019-04-13T01:44:45.0">
+            <nivel>24</nivel>
+            <mote>Desdentao</mote>
+            <tipo>Fuego</tipo>
+            <ps>1000</ps>
+            <ataque>180</ataque>
+            <defensa>200</defensa>
+        </pokemon>
+        <pokemon especie="Kyogre" fecha_captura="2019-03-15T01:44:45.0">
+            <nivel>49</nivel>
+            <mote>Ballenita</mote>
+            <tipo>Agua</tipo>
+            <ps>1600</ps>
+            <ataque>280</ataque>
+            <defensa>320</defensa>
+            <pokemontura/>
+        </pokemon>
+        <pokemon especie="Deoxys" fecha_captura="2019-04-07T04:44:45.0">
+            <nivel>80</nivel>
+            <mote>Lio</mote>
+            <tipo>Psíquico</tipo>
+            <ps>750</ps>
+            <ataque>300</ataque>
+            <defensa>200</defensa>
+            <pokemontura/>
+        </pokemon>
+        <pokemon especie="Heatran" fecha_captura="2019-04-15T01:44:45.0">
+            <nivel>91</nivel>
+            <mote>Piedrita_volcanica</mote>
+            <tipo>Fuego  Acero</tipo>
+            <ps>1500</ps>
+            <ataque>300</ataque>
+            <defensa>400</defensa>
+            <pokemontura/>
+        </pokemon>
+        <pokemon especie="Giratina" fecha_captura="2019-04-11T01:44:45.0">
+            <nivel>90</nivel>
+            <mote>Fantasmico</mote>
+            <tipo>Fantasma Dragón</tipo>
+            <ps>1800</ps>
+            <ataque>500</ataque>
+            <defensa>499</defensa>
+        </pokemon>
+        <pokemon especie="Cresselia" fecha_captura="2019-04-05T01:44:45.0">
+            <nivel>99</nivel>
+            <mote>Galactica</mote>
+            <tipo>Psíquico</tipo>
+            <ps>900</ps>
+            <ataque>190</ataque>
+            <defensa>210</defensa>
+        </pokemon>
+        <pokemon especie="Shaymin" fecha_captura="2019-04-15T01:44:45.0">
+            <nivel>66</nivel>
+            <mote>Cesped</mote>
+            <tipo>Planta</tipo>
+            <ps>1100</ps>
+            <ataque>212</ataque>
+            <defensa>212</defensa>
+        </pokemon>
+        <pokemon especie="Kyurem" fecha_captura="2019-02-01T01:44:45.0">
+            <nivel>98</nivel>
+            <mote>Caballito_de_palo</mote>
+            <tipo>Dragón Hielo</tipo>
+            <ps>1500</ps>
+            <ataque>600</ataque>
+            <defensa>450</defensa>
+            <pokemontura/>
+        </pokemon>
+        <!-- Fin pokemons Gabriel Revilla -->
+        <!-- Inicio Pokémons de Adrián Sánchez García  -->
+        <pokemon especie="Magikarp" fecha_captura="2019-04-20T14:01:25.0">
+            <nivel>5</nivel>
+            <mote>Salpi</mote>
+            <tipo>Agua</tipo>
+            <ps>20</ps>
+            <ataque>50</ataque>
+            <defensa>10</defensa>
+        </pokemon>
+        <pokemon especie="Gyarados" fecha_captura="2019-04-20T14:07:25.0">
+            <nivel>35</nivel>
+            <mote>Gusanito</mote>
+            <tipo>Agua Volador</tipo>
+            <ps>120</ps>
+            <ataque>80</ataque>
+            <defensa>30</defensa>
+            <pokemontura/>
+        </pokemon>
+        <pokemon especie="Ditto" fecha_captura="2019-04-20T14:09:25.0">
+            <nivel>30</nivel>
+            <mote>Formis</mote>
+            <tipo>Normal</tipo>
+            <ps>50</ps>
+            <ataque>30</ataque>
+            <defensa>20</defensa>
+        </pokemon>
+        <pokemon especie="Eevee" fecha_captura="2019-04-20T14:11:25.0">
+            <nivel>20</nivel>
+            <mote>Eva</mote>
+            <tipo>Normal</tipo>
+            <ps>30</ps>
+            <ataque>80</ataque>
+            <defensa>30</defensa>
+        </pokemon>
+        <pokemon especie="Vaporeon" fecha_captura="2019-04-20T14:12:25.0">
+            <nivel>30</nivel>
+            <mote>Vaper</mote>
+            <tipo>Agua</tipo>
+            <ps>100</ps>
+            <ataque>60</ataque>
+            <defensa>80</defensa>
+        </pokemon>
+        <pokemon especie="Jolteon" fecha_captura="2019-04-20T14:14:25.0">
+            <nivel>30</nivel>
+            <mote>Chispitas</mote>
+            <tipo>Eléctrico</tipo>
+            <ps>35</ps>
+            <ataque>100</ataque>
+            <defensa>65</defensa>
+        </pokemon>
+        <pokemon especie="Flareon" fecha_captura="2019-04-20T14:16:25.0">
+            <nivel>56</nivel>
+            <mote>Cabeza_ceniza</mote>
+            <tipo>Fuego</tipo>
+            <ps>65</ps>
+            <ataque>45</ataque>
+            <defensa>40</defensa>
+        </pokemon>
+        <pokemon especie="Cyndaquil" fecha_captura="2019-04-20T14:20:25.0">
+            <nivel>55</nivel>
+            <mote>Ratilla_fogosa</mote>
+            <tipo>Fuego</tipo>
+            <ps>200</ps>
+            <ataque>20</ataque>
+            <defensa>19</defensa>
+        </pokemon>
+        <pokemon especie="Quilava" fecha_captura="2019-04-20T14:21:25.0">
+            <nivel>60</nivel>
+            <mote>Fogogosin</mote>
+            <tipo>Fuego</tipo>
+            <ps>50</ps>
+            <ataque>75</ataque>
+            <defensa>85</defensa>
+        </pokemon>
+        <pokemon especie="Mudkip" fecha_captura="2019-04-20T14:23:25.0">
+            <nivel>22</nivel>
+            <mote>Aquita</mote>
+            <tipo>Agua</tipo>
+            <ps>20</ps>
+            <ataque>200</ataque>
+            <defensa>120</defensa>
+        </pokemon>
+        <pokemon especie="Marshtomp" fecha_captura="2019-04-20T14:23:25.0">
+            <nivel>20</nivel>
+            <mote>Rodolfo</mote>
+            <tipo>Agua</tipo>
+            <ps>500</ps>
+            <ataque>30</ataque>
+            <defensa>250</defensa>
+        </pokemon>
+        <pokemon especie="Swampert" fecha_captura="2019-04-20T14:23:25.0">
+            <nivel>22</nivel>
+            <mote>Baturdo</mote>
+            <tipo>Agua</tipo>
+            <ps>50</ps>
+            <ataque>60</ataque>
+            <defensa>40</defensa>
+        </pokemon>
+        <pokemon especie="Dialga" fecha_captura="2019-04-20T14:23:25.0">
+            <nivel>65</nivel>
+            <mote>Faunda</mote>
+            <tipo>Acero Dragón</tipo>
+            <ps>500</ps>
+            <ataque>100</ataque>
+            <defensa>200</defensa>
+        </pokemon>
+        <pokemon especie="Palkia" fecha_captura="2019-04-20T14:23:25.0">
+            <nivel>75</nivel>
+            <mote>Ramona</mote>
+            <tipo>Agua Dragón</tipo>
+            <ps>600</ps>
+            <ataque>200</ataque>
+            <defensa>300</defensa>
+        </pokemon>
+        <!-- Fin Pokémons de Adrián Sánchez García  -->
+        <!-- Inicio Pokémons de  Sergio Garcia -->
+        <pokemon especie="Espeon" fecha_captura="2019-01-11T15:22:22.3">
+            <nivel>20</nivel>
+            <mote>Uno</mote>
+            <tipo>Psíquico</tipo>
+            <ps>60</ps>
+            <ataque>80</ataque>
+            <defensa>50</defensa>
+            <pokemontura/>
+        </pokemon>
+        <pokemon especie="Umbreon" fecha_captura="2019-01-12T17:55:12.5">
+            <nivel>50</nivel>
+            <mote>Dos</mote>
+            <tipo>Siniestro</tipo>
+            <ps>97</ps>
+            <ataque>123</ataque>
+            <defensa>112</defensa>
+        </pokemon>
+        <pokemon especie="Scizor" fecha_captura="2019-01-13T10:32:02.3">
+            <nivel>60</nivel>
+            <mote>Pincitas</mote>
+            <tipo>Acero Bicho</tipo>
+            <ps>69</ps>
+            <ataque>51</ataque>
+            <defensa>37</defensa>
+            <pokemontura/>
+        </pokemon>
+        <pokemon especie="Kingdra" fecha_captura="2019-01-14T20:01:54.8">
+            <nivel>80</nivel>
+            <mote>Jofrillos</mote>
+            <tipo>Agua Dragón</tipo>
+            <ps>148</ps>
+            <ataque>104</ataque>
+            <defensa>84</defensa>
+            <pokemontura/>
+        </pokemon>
+        <pokemon especie="Swellow" fecha_captura="2019-01-15T12:30:00.0">
+            <nivel>28</nivel>
+            <mote>Techou</mote>
+            <tipo>Normal Volador</tipo>
+            <ps>210</ps>
+            <ataque>155</ataque>
+            <defensa>95</defensa>
+            <pokemontura/>
+        </pokemon>
+        <pokemon especie="Gardevoir" fecha_captura="2019-01-16T19:54:52.0">
+            <nivel>87</nivel>
+            <mote>Waifu</mote>
+            <tipo>Psíquico Hada</tipo>
+            <ps>258</ps>
+            <ataque>239</ataque>
+            <defensa>134</defensa>
+        </pokemon>
+        <pokemon especie="Roserade" fecha_captura="2019-01-16T22:22:22.2">
+            <nivel>5</nivel>
+            <mote>Chevalier</mote>
+            <tipo>Planta Veneno</tipo>
+            <ps>30</ps>
+            <ataque>42</ataque>
+            <defensa>25</defensa>
+        </pokemon>
+        <pokemon especie="Gastrodon" fecha_captura="2019-01-17T15:33:00.5">
+            <nivel>55</nivel>
+            <mote>Tanky</mote>
+            <tipo>Agua Tierra</tipo>
+            <ps>336</ps>
+            <ataque>87</ataque>
+            <defensa>186</defensa>
+        </pokemon>
+        <pokemon especie="Spiritomb" fecha_captura="2019-01-18T11:11:11.1">
+            <nivel>70</nivel>
+            <mote>Shedinja</mote>
+            <tipo>Fantasma Siniestro</tipo>
+            <ps>204</ps>
+            <ataque>145</ataque>
+            <defensa>175</defensa>  
+        </pokemon>
+        <pokemon especie="Garchomp" fecha_captura="2019-01-18T11:15:40.5">
+            <nivel>87</nivel>
+            <mote>Mastodonte</mote>
+            <tipo>Tierra Dragón</tipo>
+            <ps>380</ps>
+            <ataque>370</ataque>
+            <defensa>349</defensa>        
+        </pokemon>
+        <pokemon especie="Togekiss" fecha_captura="2019-01-19T16:45:30.2">
+            <nivel>65</nivel>
+            <mote>Fransua</mote>
+            <tipo>Hada Volador</tipo>
+            <ps>454</ps>
+            <ataque>177</ataque>
+            <defensa>166</defensa>        
+        </pokemon>
+        <pokemon especie="Glaceon" fecha_captura="2019-01-19T17:00:01.2">
+            <nivel>5</nivel>
+            <mote>Tres</mote>
+            <tipo>Hielo</tipo>
+            <ps>20</ps>
+            <ataque>18</ataque>
+            <defensa>10</defensa>        
+        </pokemon>
+         <pokemon especie="Aegislash" fecha_captura="2019-01-19T17:00:56.5">
+            <nivel>58</nivel>
+            <mote>DualW</mote>
+            <tipo>Acero Fantasma</tipo>
+            <ps>203</ps>
+            <ataque>100</ataque>
+            <defensa>200</defensa>
+        </pokemon>
+         <pokemon especie="Braviary" fecha_captura="2019-01-19T17:12:05.5">
+            <nivel>60</nivel>
+            <mote>Santi</mote>
+            <tipo>Normal Volador</tipo>
+            <ps>200</ps>
+            <ataque>150</ataque>
+            <defensa>130</defensa>        
+        </pokemon>
+        <!-- Fin Pokémons de Sergio Garcia -->
+        <!-- Inicio Pokémons de  Miguel -->
+        <pokemon especie="Farfetch'd" fecha_captura="2012-05-01T12:52:56">
+          <nivel>21</nivel>
+          <mote>Puerrin</mote>
+          <tipo>Normal Volador</tipo>
+          <ataque>219</ataque>
+          <defensa>176</defensa>
+          <ps>426</ps>
+        </pokemon>
+        <pokemon especie="Togepi" fecha_captura="2005-03-16T17:38:28">
+          <nivel>28</nivel>
+          <mote>Huevete</mote>
+          <tipo>Hada</tipo>
+          <ataque>220</ataque>
+          <defensa>284</defensa>
+          <ps>438</ps>
+        </pokemon>
+        <pokemon especie="Donphan" fecha_captura="2008-06-27T12:23:28">
+          <nivel>72</nivel>
+          <mote>Pisoni</mote>
+          <tipo>Tierra</tipo>
+          <ataque>589</ataque>
+          <defensa>728</defensa>
+          <ps>1022</ps>
+        </pokemon>
+        <pokemon especie="Klinklang" fecha_captura="2017-12-13T17:15:36">
+          <nivel>67</nivel>
+          <mote>Plank</mote>
+          <tipo>Acero</tipo>
+          <ataque>672</ataque>
+          <defensa>507</defensa>
+          <ps>1176</ps>
+        </pokemon>
+        <pokemon especie="Xatu" fecha_captura="2008-05-30T08:24:50">
+          <nivel>13</nivel>
+          <mote>Navaho</mote>
+          <tipo>Psíquico Volador</tipo>
+          <ataque>139</ataque>
+          <defensa>107</defensa>
+          <ps>233</ps>
+        </pokemon>
+        <pokemon especie="Lickitung" fecha_captura="2013-05-15T10:52:55">
+          <nivel>26</nivel>
+          <mote>Don_limpio</mote>
+          <tipo>Normal</tipo>
+          <ataque>262</ataque>
+          <defensa>238</defensa>
+          <ps>523</ps>
+        </pokemon>
+        <pokemon especie="Koffing" fecha_captura="2004-11-27T16:49:40">
+          <nivel>34</nivel>
+          <mote>Pig_Pen</mote>
+          <tipo>Veneno</tipo>
+          <ataque>349</ataque>
+          <defensa>299</defensa>
+          <ps>627</ps>
+        </pokemon>
+        <pokemon especie="Corsola" fecha_captura="2003-12-06T19:42:21">
+          <nivel>36</nivel>
+          <mote>Joy</mote>
+          <tipo>Agua Roca</tipo>
+          <ataque>340</ataque>
+          <defensa>365</defensa>
+          <ps>616</ps>
+        </pokemon>
+        <pokemon especie="Virizion" fecha_captura="2017-09-28T16:00:12">
+          <nivel>12</nivel>
+          <mote>MonAmi</mote>
+          <tipo>Planta Lucha</tipo>
+          <ataque>120</ataque>
+          <defensa>105</defensa>
+          <ps>236</ps>
+          <pokemontura/>
+        </pokemon>
+        <pokemon especie="Terrakion" fecha_captura="2018-06-22T02:37:29">
+          <nivel>56</nivel>
+          <mote>Chicho</mote>
+          <tipo>Roca Lucha</tipo>
+          <ataque>518</ataque>
+          <defensa>569</defensa>
+          <ps>1022</ps>
+          <pokemontura/>
+        </pokemon>
+        <pokemon especie="Cobalion" fecha_captura="2015-07-31T17:22:42">
+          <nivel>48</nivel>
+          <mote>Tungsteno</mote>
+          <tipo>Acero Lucha</tipo>
+          <ataque>481</ataque>
+          <defensa>432</defensa>
+          <ps>852</ps>
+          <pokemontura/>
+        </pokemon>
+        <!-- Fin Pokémons de Miguel -->
+        <pokeball>15</pokeball>
+    </mochila>
+    <pokecuartos>99999998 Poke</pokecuartos>
+</jugador>

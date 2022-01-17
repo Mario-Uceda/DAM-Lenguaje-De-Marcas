@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Mario Uceda Yeves
+Módulo: Lenguaje de Marcas // Ciclo: Desarrollo de Aplicaciones Multiplataforma (DAM)
+Fecha entrega: 2019-04-21 // Fecha Oficial de entrega: 2019-04-21
+Link del XML y XSD de esta versión validados.
+https://drive.google.com/drive/folders/15O6troUrfyXfPOfJekIabUrieHnqcTSV?usp=sharing
+-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    
+    <!--Inicio include-->
+	<xs:include schemaLocation="Practica4_UcedaYevesMario_esquemav2.xsd"/>
+    <!--Fin include-->
+    
+	<!--Inicio de los elementos globales-->
+    <xs:element name="jugador" type="tipoJugador"/>
+    <xs:element name="entrenador" substitutionGroup="jugador"/>
+    <xs:element name="pokecuartos" type="tipoPokecuarto"/>
+    <xs:element name="chica" substitutionGroup="chico"/>
+    <!--Fin de los elementos globales-->
+    
+    <!--Inicio de los elementos vacios-->
+    <xs:element name="chico">
+        <xs:complexType/>
+    </xs:element>
+    <!--Fin de los elementos vacios-->
+    
+    <!--Inicio tipos simples-->
+    <xs:simpleType name="tipoPokecuarto">
+        <xs:restriction base="xs:string">
+            <xs:pattern value="[0-9]{8,}[ ][P][o][k][e]"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <!--Fin tipos simples-->
+    
+    <!--Inicio tipos complejos-->
+    <xs:complexType name="tipoJugador">
+        <xs:all>
+            <xs:element name="nombre" type="tipoNombre"/>
+            <xs:element ref="chico"/>
+            <xs:element name="fechaNacimiento" type="xs:date"/>
+            <xs:element ref="mochila"/>
+            <xs:element ref="pokecuartos"/>
+        </xs:all>
+    </xs:complexType>
+    <!--Fin tipos complejos-->
+    
+</xs:schema>

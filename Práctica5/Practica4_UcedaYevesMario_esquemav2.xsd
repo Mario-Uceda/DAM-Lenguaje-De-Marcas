@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!-- Mario Uceda Yeves
+Módulo: Lenguaje de Marcas // Ciclo: Desarrollo de Aplicaciones Multiplataforma (DAM)
+Fecha entrega: 2019-04-21 // Fecha Oficial de entrega: 2019-04-21
+Link del XML y XSD de esta versión validados.
+https://drive.google.com/drive/folders/1Cl03lEItaDtMeJgnawUs38qRGUzHQqBV?usp=sharing
+-->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    
+    <!--En el link de arriba te dejo como en un XML de la segunda version del juego si utilizas el XSD anterior y este valida perfectamente-->
+    <!--El redefine tiene que ir principio del XSD, si pongo primero los elementos globales y los tipos, el XSD no valida-->
+    
+    <!--Inicio del redefine para añadir a los elementos definidos en el anterior XSD las nuevas mejoras-->
+    <xs:redefine schemaLocation="Practica4_UcedaYevesMario_esquemav1.xsd">
+        <xs:complexType name="tipoPokemon">
+            <xs:complexContent>
+                <xs:extension base="tipoPokemon">
+                    <xs:attribute name="fecha_captura" type="xs:dateTime" default="2010-01-01T09:00:00.0" use="optional"/>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+
+        <xs:complexType name="tipoMochila">
+            <xs:complexContent>
+                <xs:extension base="tipoMochila">
+                    <xs:sequence>
+                        <xs:element ref="pokeball"/>
+                    </xs:sequence>
+                </xs:extension>
+            </xs:complexContent>
+        </xs:complexType>
+    </xs:redefine>
+	<!--Fin del redefine-->
+    
+    <!--Inicio de los elementos globales-->
+    <xs:element name="pokeball" type="tipoPokeball" default="10"/>
+    <!--Fin de los elementos globales-->
+    
+    <!--Inicio de los tipos simples-->
+    <xs:simpleType name="tipoPokeball">
+        <xs:restriction base="xs:integer">
+            <xs:minInclusive value="0"/>
+            <xs:maxInclusive value="50"/>
+        </xs:restriction>
+    </xs:simpleType>
+    <!--Inicio de los tipos simples-->
+    
+</xs:schema>

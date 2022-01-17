@@ -1,0 +1,144 @@
+body {
+    background-image: url("files/fondo_web.jpg");
+    color: #3d3d3d;
+}
+#Contenedor{
+    margin-top: 50px;
+    width: 1010px;
+    margin-right:auto; 
+    margin-left:auto; 
+}
+h1{
+    background-color:red;
+    padding-top: 26px;
+    padding-bottom: 26px;
+    color:white;
+    text-align: justify;
+    font-family: fantasy;
+    font-weight: bold;
+    text-indent: 850px;
+}
+#FondoTranslucido{
+    background-color:#ddd;
+    opacity: 0.8;
+    margin: auto;
+    margin-top: -21.5px;
+    height: 100000px;
+}
+#Menu{
+    width: 230px;
+    background-color: #f9dbce;
+    position: absolute;
+    top: 140px;
+}
+#Menu h2{
+    background-color:#f3b9a0;
+    color: #662619;
+    padding-left: 5px;
+}
+#FichaEntrenador{
+    height: 115px;
+}
+#FichaEntrenador img{
+    margin-left: 10px;
+    position: relative;
+    top: -70px;
+}
+#FichaEntrenador p{
+    position: relative;
+    left:73px;
+    color:black;
+}
+#FichaEntrenador #nombre{
+    position: relative;
+    top: -5px;
+    font-weight: bold;
+}
+#FichaEntrenador #fechaNacimiento{
+    position: relative;
+    top: -128px;
+}
+#FichaEntrenador #chico,#chica{
+    position: relative;
+    top: -22px;
+}
+#FichaEntrenador #ficha{
+    position: relative;
+    top: -145px;  
+    text-decoration: underline;
+}
+#Estadisticas p{
+    margin: 5px 10px;
+}
+#ListaPokemon p{
+    display: block;
+    width: 230px;
+    height: 25px;
+    border-bottom: solid 1px red;
+    margin:0px;
+}
+#ListaPokemon p img{
+    margin-left: 10px;
+    vertical-align: middle;
+}
+#ListaPokemon p a{
+    vertical-align: middle;
+    margin-left: 5px;
+    text-decoration: none;
+    color:black;
+}
+#Pokemons{
+    position: absolute;
+    top: 140px;
+    margin-left: 230px;
+    width: 780px;
+}
+#Pokemons #Tarjetas{
+    display: inline-block;
+    background-color:white;
+    width: 200px;
+    height: 250px;
+    margin: 10px;
+}
+#Pokemons #Tarjetas h2{
+    display: inline;
+    position: relative;
+    top: 20px;
+    color: #662619;
+    font-style: normal;
+    text-decoration: underline;
+    background-color: #f3b9a0;
+    font-family: serif;
+    font-size:20px;
+}
+#Pokemons #Tarjetas img{
+    float: right;
+    margin: 10px 10px 0px 0px;
+}
+#Pokemons #Tarjetas #PokeStats{
+    border: solid 3px red;
+    position: relative;
+    top: 25px;
+    font-size: 12px;
+    font-family: serif;
+    margin: 5px;
+    padding: 10px 10px 0px 10px;
+    color: #CC8566;
+}
+#Pokemons #Tarjetas #pokemontura{
+    display:inline-block;
+    width:65px;;
+    background-color: #777;
+    color: white;
+    margin: 0px;
+    border: solid 1px blue;
+}
+#Pokemons #Tarjetas #texto{
+    position: relative;
+    top: 2absolutepx;
+    font-family: serif;
+    font-size:12px;
+    border: solid 1px #CC8566;
+    margin: 5px;
+    padding: 10px 10px 0px 10px;
+}
