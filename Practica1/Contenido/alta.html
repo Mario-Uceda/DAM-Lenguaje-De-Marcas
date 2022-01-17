@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>alta</title>
+    </head>
+    <body>
+        <form action="https://www.w3schools.com/action_page.php" target="_blank" method="post" enctype="multipart/form-data">
+            <!--Titulo-->
+            <h1>Formulario de alta de usuario</h1>
+            <!--/Titulo-->
+            <!--Formulario-->
+            <table border="1" style="width: 100%" >
+                <!--ID Usuario-->
+                <tr>                    
+                    <td style="text-align:center" colspan="2">
+                    Identificador de nuevo usuario <input type="text" name="user" value="usu_012345"/>
+                    </td>
+                </tr>
+                <!--/ID Usuario-->
+                <!--DatosPersonales-->
+                <tr>                    
+                    <td style="width: 40%">Nombre <input type="text" name="name"/></td>
+                    <td>Apellido <input type="text" name="lastname"></td>
+                </tr>
+                <!--/DatosPersonales-->
+                <!--Contraseña-->
+                <tr>                    
+                    <td>Contraseña  <input type="password" name="password"/></td>
+                    <td>Confirmar contraseña <input type="password" name="password2"></td> 
+                </tr>
+                <!--/Contraseña-->
+                <!--Email-->
+                <tr>
+                    <td  colspan="2">
+                        Email <input style="width:55%" type="text" name="email"/>
+                    </td>                    
+                </tr> 
+                <!--/Email-->
+                <!--Genero-->
+                <tr>
+                    <td>Sexo</td>
+                    <td>
+                        <input type="radio" name="gender" value="male"/>Varón 
+                        <input type="radio" name="gender" value="female" checked/>Mujer  
+                    </td>                
+                </tr>
+                <!--/Genero-->
+                <!--Aficiones-->
+                <tr>
+                    <td>Aficiones</td>
+                    <td>
+                        <input type="checkbox" name="hobbies" value="sport"/>Deporte<br/>
+                        <input type="checkbox" name="hobbies" value="reading" checked/>Lectura<br/>
+                        <input type="checkbox" name="hobbies" value="cinema"/>Cine<br/>
+                    </td>                
+                </tr>
+                <!--/Aficiones-->
+                <!--Pais-->
+                <tr>
+                    <td>País</td>
+                    <td>
+                        <select name="country">
+                            <option value="France">Francia</option>
+                            <option value="Spain">España</option>
+                            <option value="England">Inglaterra</option>    
+                        </select>
+                    </td>
+                </tr>
+                <!--/Pais-->
+                <!--ColorFavorito-->
+                <tr>
+                    <td>Colores Favoritos</td>
+                    <td>
+                        <select name="colors" size="4" multiple>
+                            <option value="red" selected>Rojo</option>
+                            <option value="green">Verde</option>
+                            <option value="blue" selected>Azúl</option>                            
+                        </select>
+                    </td>
+                </tr>
+                <!--/ColorFavorito-->
+                <!--Foto-->
+                <tr>
+                    <td>Subir su foto</td>
+                    <td><input name="photo" type="file" accept="image/png, .jpeg, .jpg, image/gif"></td>
+                </tr>
+                <!--/Foto-->
+                <!--Comentarios-->
+                <tr>
+                    <td>Comentarios personales</td>
+                    <td style="height:100px; text-align: center">
+                        <textarea style="width:98%; height:98%; vertical-align: middle" name="comments"  placeholder="Escriba aquí sus comentarios"></textarea>
+                    </td>
+                </tr>
+                <!--/Comentarios-->
+                 <!--Botones-->
+                <tr>
+                    <td style="text-align: center"><input type="reset" name="reset" value="Resetear"/></td>
+                    <td style="text-align: center"><input type="submit" name="send" value="Enviar"/></td>
+                </tr>
+                <tr>
+                    <td colspan="2" style="text-align: center"><input type="button" value="Modificar los datos del usuario"/></td>
+                </tr>  
+                <!--/Botones-->
+            </table>
+            <!--/Formulario-->
+        </form>
+    </body>
+</html>    

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>formulario</title>
+    </head>
+    <body>
+        <form action="https://www.w3schools.com/action_page.php" method="post" target="_blank">
+            <fieldset>
+                <legend>FORMULARIO DE PEDIDO</legend>
+                <!--Paso1-->
+                <p><b>>Paso 1. Identificación</b></p>
+                <table style="width: 100%">
+                    <tr>
+                        <!--DatosCliente-->
+                        <td style="width: 45%">
+                            <fieldset style="width: 90%">
+                                <legend>Datos del Cliente</legend><br/>
+                                Correo Electronico:
+                                <input type="text" name="email" style="width: 125px"/><br/>
+                                Contraseña:
+                                <input type="password" name="password" style="width: 85px"/><br/>
+                                (longitud minima 6 caracteres)
+                            </fieldset>
+                        </td>
+                        <!--/DatosCliente-->
+                        <!--TipoCliente-->
+                        <td>
+                            <fieldset style="width: 30%; height: 110px">
+                                <legend>Tipo de Cliente</legend><br/>
+                                <input type="radio" name="cliente" value="particular" checked/>
+                                Particular<br/>
+                                <input type="radio" name="cliente" value="Asociación"/>
+                                Asociación<br/>
+                                <input type="radio" name="cliente" value="Empresa"/>
+                                Empresa
+                            </fieldset>  
+                        </td>
+                        <!--/TipoCliente-->
+                    </tr>                               
+                </table>
+                <!--/Paso1-->
+                <!--Paso2-->
+                <p><b>>Paso 2. Pedido</b></p>  
+                <table style="width: 100%">
+                    <tr>
+                        <!--DatosProducto-->
+                        <td style="width: 40%">
+                            <fieldset style="width: 90%">
+                                <legend>Datos del Producto</legend>
+                                <select name="producto" size="8" style="width: 90%" multiple>
+                                    <optgroup label="Camisetas">
+                                        <option value=“FC0001” selected> FC0001 Cam Real Madrid CF</option>
+                                        <option value=“FC0002”> FC0002 Cam FC Barcelona</option>
+                                        <option value=“FC0003”> FC0003 Cam Manchester U</option>
+                                        <option value=“FC0004”> FC0004 Cam AC Milan</option>     
+                                    </optgroup>
+                                    <optgroup label="Pantalones">
+                                        <option value=“FC0001” selected> FC1001 Pan Real Madrid CF</option>
+                                        <option value=“FC0002”> FC2002 Pan FC Barcelona</option>
+                                        <option value=“FC0003”> FC3003 Pan Manchester U</option>
+                                        <option value=“FC0004”> FC4004 Pan AC Milan</option> 
+                                    </optgroup>
+                                </select>
+                            </fieldset> 
+                        </td>
+                        <!--/DatosProducto-->
+                        <!--InformacionInteres-->
+                        <td style="width: 60%">
+                            <fieldset style="width: 90%">
+                                <legend>Informacion de interés</legend>
+                                <legend>Comentarios</legend>
+                                <textarea style="width: 90%; height: 75px" name="comentarios" placeholder="Escriba aquí sus comentarios"></textarea><br/>
+                                <input type="checkbox" name="aceptar" checked> Acepto recibir información publicitaria
+                            </fieldset>
+                        </td>
+                        <!--/InformacionInteres-->
+                    </tr> 
+                </table>
+                <!--DatosEnvio-->
+                <fieldset style="width: 80%">
+                    <legend>Datos de envio</legend>
+                    <br/>
+                    Dirección
+                    <input type="text" name="dirección" style="width: 275px"/><br/>
+                    Ciudad
+                    <input type="text" name="Ciudad"/>
+                    Código Postal
+                    <input type="text" name="CP" style="width: 50px"/>
+                </fieldset>
+                <!--/DatosEnvio-->
+                <!--DatosBancarios-->
+                <fieldset style="width: 80%">
+                    <legend>Datos Bancarios</legend>
+                    <br/>
+                    Nombre de la Entidad
+                    <input type="text" name="entidad"/><br/>
+                    Nº de Cuenta
+                    <input type="text" name="cuenta"/>                    
+                </fieldset>
+                <!--/DatosBancarios-->
+                <!--/Paso2-->
+                <!--Botones-->
+                <table style="width: 100%; height: 50px">
+                    <tr>
+                        <td style="width: 85%"><button>ENVIAR<br/>PEDIDO</button></td>
+                        <td><input type="reset"value="RESET"/></td>
+                    </tr>
+                </table>
+                <!--/Botones-->
+            </fieldset>             
+        </form>
+    </body>
+</html>
